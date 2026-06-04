@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="u_student">u_student</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>STU</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-03 12:59:09</sys_created_on>
+        <sys_id>155ce674c31d8b10a73937cc050131bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>STU</sys_name>
+        <sys_package display_value="Library managemnt " source="a3ed5e2bc3cd0310a73937cc05013160">a3ed5e2bc3cd0310a73937cc05013160</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library managemnt ">a3ed5e2bc3cd0310a73937cc05013160</sys_scope>
+        <sys_update_name>sys_number_155ce674c31d8b10a73937cc050131bc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-03 12:59:09</sys_updated_on>
+    </sys_number>
+</record_update>
