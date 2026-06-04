@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="u_books_request">u_books_request</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>REQST</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 13:19:18</sys_created_on>
+        <sys_id>828a3b85c3154f10a73937cc050131e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>REQST</sys_name>
+        <sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b">7859b305c3154f10a73937cc0501314b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
+        <sys_update_name>sys_number_828a3b85c3154f10a73937cc050131e0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 13:19:18</sys_updated_on>
+    </sys_number>
+</record_update>
