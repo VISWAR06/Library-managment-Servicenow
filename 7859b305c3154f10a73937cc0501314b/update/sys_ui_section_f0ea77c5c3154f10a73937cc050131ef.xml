@@ -4,13 +4,97 @@
             <element>u_number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-04 13:20:51</sys_created_on>
-            <sys_id>f0ea77c5c3154f10a73937cc050131f4</sys_id>
+            <sys_created_on>2026-06-05 13:41:42</sys_created_on>
+            <sys_id>4049c1a5c31dcf10a73937cc05013188</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_book_issue" sys_domain="global" view="Default view">f0ea77c5c3154f10a73937cc050131ef</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-04 13:20:51</sys_updated_on>
+            <sys_updated_on>2026-06-05 13:41:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_user</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-05 13:41:42</sys_created_on>
+            <sys_id>cc49c1a5c31dcf10a73937cc05013188</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_book_issue" sys_domain="global" view="Default view">f0ea77c5c3154f10a73937cc050131ef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-05 13:41:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_book</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-05 13:41:42</sys_created_on>
+            <sys_id>4c49c1a5c31dcf10a73937cc05013189</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_book_issue" sys_domain="global" view="Default view">f0ea77c5c3154f10a73937cc050131ef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-05 13:41:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_requested_date</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-05 13:41:42</sys_created_on>
+            <sys_id>c849c1a5c31dcf10a73937cc0501318a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_book_issue" sys_domain="global" view="Default view">f0ea77c5c3154f10a73937cc050131ef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-05 13:41:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_due_date</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-05 13:41:42</sys_created_on>
+            <sys_id>4849c1a5c31dcf10a73937cc0501318b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_book_issue" sys_domain="global" view="Default view">f0ea77c5c3154f10a73937cc050131ef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-05 13:41:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_status</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-05 13:41:42</sys_created_on>
+            <sys_id>c449c1a5c31dcf10a73937cc0501318c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_book_issue" sys_domain="global" view="Default view">f0ea77c5c3154f10a73937cc050131ef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-05 13:41:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_return_date</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-05 13:41:42</sys_created_on>
+            <sys_id>0c49c1a5c31dcf10a73937cc05013199</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_book_issue" sys_domain="global" view="Default view">f0ea77c5c3154f10a73937cc050131ef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-05 13:41:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
