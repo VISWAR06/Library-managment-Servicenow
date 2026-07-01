@@ -11,14 +11,14 @@
         <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
-        <collection>u_books_request</collection>
+        <collection>u_books</collection>
         <condition/>
         <description/>
         <execute_function>false</execute_function>
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>Issue Creation</name>
+        <name>Avaliable Count</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -30,47 +30,44 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
 	// Add your code here
-	var create=new GlideRecord('u_book_issue');
-	create.initialize();
-	create.u_user=current.u_requested_by;
-	create.u_book=current.u_book;
-	var gd=new GlideDate();
-	gd.setValue(gs.nowDate())
-	create.u_requested_date=gd.getValue();
-	var datee=new GlideDateTime();
-	datee.addDaysLocalTime(20);
-	create.u_due_date=datee.getDate();
-	create.u_status="Issued";
-	create.insert();
+	
+		if (current.u_total_count <= 0) {
+        gs.addErrorMessage("Total Count must be greater than 0.");
+        current.setAbortAction(true);
+        return;
+    }
+	
+		current.u_avaliable_count=current.u_total_count;
+	
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-06-21 13:58:15</sys_created_on>
+        <sys_created_on>2026-07-01 10:08:37</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>5a45e726c3ed87d0a73937cc0501314d</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Issue Creation</sys_name>
+        <sys_id>df211abdc331cf14a73937cc05013184</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Avaliable Count</sys_name>
         <sys_overrides/>
         <sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b">7859b305c3154f10a73937cc0501314b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
-        <sys_update_name>sys_script_5a45e726c3ed87d0a73937cc0501314d</sys_update_name>
+        <sys_update_name>sys_script_df211abdc331cf14a73937cc05013184</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-01 10:57:51</sys_updated_on>
+        <sys_updated_on>2026-07-01 10:38:58</sys_updated_on>
         <template/>
-        <when>after</when>
+        <when>before</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=5a45e726c3ed87d0a73937cc0501314d"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=df211abdc331cf14a73937cc05013184"/>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
-        <id>5a45e726c3ed87d0a73937cc0501314d</id>
+        <id>df211abdc331cf14a73937cc05013184</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-06-21 13:58:14</sys_created_on>
-        <sys_id>9a766ba2c3ed87d0a73937cc050131fc</sys_id>
+        <sys_created_on>2026-07-01 10:08:36</sys_created_on>
+        <sys_id>37c11afdc331cf14a73937cc050131c7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-21 13:58:14</sys_updated_on>
+        <sys_updated_on>2026-07-01 10:08:36</sys_updated_on>
         <table>sys_script</table>
         <use_es_latest>true</use_es_latest>
     </sys_es_latest_script>
