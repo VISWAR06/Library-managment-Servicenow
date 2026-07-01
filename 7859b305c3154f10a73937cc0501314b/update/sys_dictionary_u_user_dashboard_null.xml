@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="" table="u_books_request">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="" table="u_user_dashboard">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -30,7 +30,7 @@
         <internal_type display_value="Collection">collection</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>u_books_request</name>
+        <name>u_user_dashboard</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -46,14 +46,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-06-04 13:19:17</sys_created_on>
-        <sys_name>u_books_request</sys_name>
+        <sys_created_on>2026-06-10 14:42:33</sys_created_on>
+        <sys_name>u_user_dashboard</sys_name>
         <sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b">7859b305c3154f10a73937cc0501314b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
-        <sys_update_name>sys_dictionary_u_books_request_NULL</sys_update_name>
+        <sys_update_name>sys_dictionary_u_user_dashboard_null</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-04 13:19:17</sys_updated_on>
+        <sys_updated_on>2026-06-10 14:42:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -68,16 +68,16 @@
     </sys_dictionary>
     <sys_claim action="INSERT_OR_UPDATE">
         <claim_owner_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</claim_owner_scope>
-        <claim_timestamp>19e92ceccfb0000001</claim_timestamp>
-        <metadata_update_name>sys_dictionary_u_books_request_NULL</metadata_update_name>
+        <claim_timestamp>19eb1ff56df0000001</claim_timestamp>
+        <metadata_update_name>sys_dictionary_u_user_dashboard_null</metadata_update_name>
         <previous_claim_app_version>1.0.0</previous_claim_app_version>
         <previous_claim_name>Library Management</previous_claim_name>
         <previous_claim_scope>7859b305c3154f10a73937cc0501314b</previous_claim_scope>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-06-04 13:24:46</sys_created_on>
-        <sys_id>12cbf349c3154f10a73937cc05013152</sys_id>
+        <sys_created_on>2026-06-10 14:46:01</sys_created_on>
+        <sys_id>bee74f0bc3910f50a73937cc0501310d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-04 13:24:46</sys_updated_on>
+        <sys_updated_on>2026-06-10 14:46:01</sys_updated_on>
     </sys_claim>
 </record_update>
