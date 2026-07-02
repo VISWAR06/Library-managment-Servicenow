@@ -1,29 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
     <sys_app_application action="INSERT_OR_UPDATE">
         <active>true</active>
-        <category display_value="Administration">647e6524c0a80a080010856a87e15ce2</category>
-        <description/>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description>Application menu creation&#13;
+</description>
         <device_type>browser</device_type>
-        <hint/>
+        <hint>Library Management</hint>
         <name/>
-        <order/>
+        <order>100</order>
         <roles/>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-06-16 06:43:22</sys_created_on>
+        <sys_created_on>2026-07-02 13:53:31</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>d8d21805c3218b90a73937cc050131fa</sys_id>
+        <sys_id>c39eccd6c3bd4354a73937cc05013140</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>lib mngmnt</sys_name>
+        <sys_name>Library Management</sys_name>
         <sys_overrides/>
         <sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b">7859b305c3154f10a73937cc0501314b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
-        <sys_update_name>sys_app_application_d8d21805c3218b90a73937cc050131fa</sys_update_name>
+        <sys_update_name>sys_app_application_c39eccd6c3bd4354a73937cc05013140</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-16 06:43:22</sys_updated_on>
-        <title>lib mngmnt</title>
+        <sys_updated_on>2026-07-02 13:53:31</sys_updated_on>
+        <title>Library Management</title>
         <view_name/>
     </sys_app_application>
 </record_update>
