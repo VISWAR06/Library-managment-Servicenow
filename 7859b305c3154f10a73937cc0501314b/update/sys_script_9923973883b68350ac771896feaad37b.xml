@@ -11,14 +11,14 @@
         <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
-        <collection>u_books</collection>
+        <collection>u_books_request</collection>
         <condition/>
         <description/>
         <execute_function>false</execute_function>
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>Avaliable Count</name>
+        <name>Log Creation</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -30,44 +30,42 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
 	// Add your code here
-	
-		if (current.u_total_count <= 0) {
-        gs.addErrorMessage("Total Count must be greater than 0.");
-        current.setAbortAction(true);
-        return;
-    }
-	
-		current.u_avaliable_count=current.u_total_count;
-	
-
+	var Logcr=new GlideRecord('u_book_issue');
+	Logcr.initialize();
+	Logcr.u_name=current.u_name;
+	Logcr.u_book_name=current.u_book_name;
+	Logcr.u_start_date=current.u_start_date;
+	Logcr.u_category=current.u_category;
+	Logcr.u_end_date=current.u_end_date;
+	Logcr.insert();
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-07-01 10:08:37</sys_created_on>
+        <sys_created_on>2026-08-17 05:45:48</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>df211abdc331cf14a73937cc05013184</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Avaliable Count</sys_name>
+        <sys_id>9923973883b68350ac771896feaad37b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Log Creation</sys_name>
         <sys_overrides/>
         <sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b">7859b305c3154f10a73937cc0501314b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
-        <sys_update_name>sys_script_df211abdc331cf14a73937cc05013184</sys_update_name>
+        <sys_update_name>sys_script_9923973883b68350ac771896feaad37b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-01 10:38:58</sys_updated_on>
+        <sys_updated_on>2026-08-17 05:45:48</sys_updated_on>
         <template/>
-        <when>before</when>
+        <when>after</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=df211abdc331cf14a73937cc05013184"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=9923973883b68350ac771896feaad37b"/>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
-        <id>df211abdc331cf14a73937cc05013184</id>
+        <id>9923973883b68350ac771896feaad37b</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-07-01 10:08:36</sys_created_on>
-        <sys_id>37c11afdc331cf14a73937cc050131c7</sys_id>
+        <sys_created_on>2026-08-17 05:45:47</sys_created_on>
+        <sys_id>e4689bf083f68350ac771896feaad30a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-01 10:08:36</sys_updated_on>
+        <sys_updated_on>2026-08-17 05:45:47</sys_updated_on>
         <table>sys_script</table>
         <use_es_latest>true</use_es_latest>
     </sys_es_latest_script>

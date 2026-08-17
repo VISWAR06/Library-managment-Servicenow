@@ -52,7 +52,7 @@
         <update_guid_history>9bf29c058c218b90c1a682e241f2426f:-1629765875</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="lib mngmnt">4a5e44d6c3bd4354a73937cc050131a5</sys_audit_delete>
+        <sys_audit_delete display_value="">4a5e44d6c3bd4354a73937cc050131a5</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-07-02 13:51:11</sys_created_on>

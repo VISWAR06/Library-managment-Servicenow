@@ -4,69 +4,111 @@
             <element>u_number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-05 12:50:42</sys_created_on>
-            <sys_id>bc9dbcadc399cf10a73937cc0501313f</sys_id>
+            <sys_created_on>2026-08-17 09:16:08</sys_created_on>
+            <sys_id>3588c849837e8350ac771896feaad3c8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_books" sys_domain="global" view="Default view">4ef9b745c3154f10a73937cc0501311d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-05 12:50:42</sys_updated_on>
+            <sys_updated_on>2026-08-17 09:16:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_book_name</element>
+            <element>u_author</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-05 12:50:42</sys_created_on>
-            <sys_id>749dbcadc399cf10a73937cc05013141</sys_id>
+            <sys_created_on>2026-08-17 09:16:08</sys_created_on>
+            <sys_id>b188c849837e8350ac771896feaad3c9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_books" sys_domain="global" view="Default view">4ef9b745c3154f10a73937cc0501311d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-05 12:50:42</sys_updated_on>
+            <sys_updated_on>2026-08-17 09:16:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_total_count</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-17 09:16:08</sys_created_on>
+            <sys_id>3188c849837e8350ac771896feaad3ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_books" sys_domain="global" view="Default view">4ef9b745c3154f10a73937cc0501311d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-17 09:16:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_fine</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-17 09:16:08</sys_created_on>
+            <sys_id>bd88c849837e8350ac771896feaad3ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_books" sys_domain="global" view="Default view">4ef9b745c3154f10a73937cc0501311d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-17 09:16:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>2</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-05 12:50:42</sys_created_on>
-            <sys_id>c19dbcadc399cf10a73937cc05013142</sys_id>
+            <sys_created_on>2026-08-17 09:16:08</sys_created_on>
+            <sys_id>3d88c849837e8350ac771896feaad3cb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_books" sys_domain="global" view="Default view">4ef9b745c3154f10a73937cc0501311d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-05 12:50:42</sys_updated_on>
+            <sys_updated_on>2026-08-17 09:16:08</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_author</element>
-            <position>3</position>
+            <element>u_name</element>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-05 12:50:42</sys_created_on>
-            <sys_id>419dbcadc399cf10a73937cc05013143</sys_id>
+            <sys_created_on>2026-08-17 09:16:08</sys_created_on>
+            <sys_id>b988c849837e8350ac771896feaad3cc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_books" sys_domain="global" view="Default view">4ef9b745c3154f10a73937cc0501311d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-05 12:50:42</sys_updated_on>
+            <sys_updated_on>2026-08-17 09:16:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_category</element>
-            <position>4</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-05 12:50:42</sys_created_on>
-            <sys_id>cd9dbcadc399cf10a73937cc05013143</sys_id>
+            <sys_created_on>2026-08-17 09:16:08</sys_created_on>
+            <sys_id>3988c849837e8350ac771896feaad3cd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_books" sys_domain="global" view="Default view">4ef9b745c3154f10a73937cc0501311d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-05 12:50:42</sys_updated_on>
+            <sys_updated_on>2026-08-17 09:16:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_availabe_count</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-17 09:16:08</sys_created_on>
+            <sys_id>7d88c849837e8350ac771896feaad3da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_books" sys_domain="global" view="Default view">4ef9b745c3154f10a73937cc0501311d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-17 09:16:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
