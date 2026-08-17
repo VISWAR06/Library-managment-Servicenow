@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>global.fetchcategory</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>fetchcategory</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var fetchcategory = Class.create();
+fetchcategory.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+
+    fetchcategory: function() {
+        var para = this.getParameter('sysparm_record_id');
+        var result = '';
+
+        var gr = new GlideRecord('u_books');
+        if (gr.get(para)) {
+            result = gr.getValue('u_category');
+        }
+
+        return result;
+    },
+
+    type: 'fetchcategory'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-17 06:49:50</sys_created_on>
+        <sys_id>93f6a7b0837a8350ac771896feaad384</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>fetchcategory</sys_name>
+        <sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b">7859b305c3154f10a73937cc0501314b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
+        <sys_update_name>sys_script_include_93f6a7b0837a8350ac771896feaad384</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-17 06:53:20</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="DELETE">
+        <id>93f6a7b0837a8350ac771896feaad384</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-17 06:49:49</sys_created_on>
+        <sys_id>e2072fb0837a8350ac771896feaad30d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-17 06:49:49</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Library Management">7859b305c3154f10a73937cc0501314b</application>
+        <file_path/>
+        <instance_id>56aa2e253b958b10986d048aa4e45a71</instance_id>
+        <instance_name>dev399443</instance_name>
+        <name>sys_script_include_93f6a7b0837a8350ac771896feaad384</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.fetchcategory&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;fetchcategory&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var fetchcategory = Class.create();
+fetchcategory.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+
+    fetchcategory: function() {
+        var para = this.getParameter('sysparm_record_id');
+        var result = '';
+
+        var gr = new GlideRecord('u_books');
+        if (gr.get(para)) {
+            result = gr.getValue('u_category');
+        }
+
+        return result;
+    },
+
+    type: 'fetchcategory'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-08-17 06:49:50&lt;/sys_created_on&gt;&lt;sys_id&gt;93f6a7b0837a8350ac771896feaad384&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;fetchcategory&lt;/sys_name&gt;&lt;sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b"&gt;7859b305c3154f10a73937cc0501314b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Library Management"&gt;7859b305c3154f10a73937cc0501314b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_93f6a7b0837a8350ac771896feaad384&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-08-17 06:53:20&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;93f6a7b0837a8350ac771896feaad384&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-08-17 06:49:49&lt;/sys_created_on&gt;&lt;sys_id&gt;e2072fb0837a8350ac771896feaad30d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-08-17 06:49:49&lt;/sys_updated_on&gt;&lt;table&gt;sys_script_include&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>669202121</payload_hash>
+        <record_name>fetchcategory</record_name>
+        <reverted_from/>
+        <source>435ccd0583a68750ac771896feaad393</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-17 06:53:20</sys_created_on>
+        <sys_id>f1d76b34837a8350ac771896feaad348</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a00e7f04f80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-17 06:53:20</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>31d76b34257a8350ca366e6d8f090647</update_guid>
+        <update_guid_history>31d76b34257a8350ca366e6d8f090647:669202121,c4b7eb34e93a83500f3a12715e4dc4e3:-2112838382,62076fb0d87a835034e035745facc57a:502804591</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-17 06:53:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>b984e94d459c4196b6a3ef9c64752c04</sys_id>
+        <sys_metadata>93f6a7b0837a8350ac771896feaad384</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fetchcategory</sys_name>
+        <sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b">7859b305c3154f10a73937cc0501314b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
+        <sys_scope_delete display_value="">3a6fb8a3e030493ea05c1e70fa145c24</sys_scope_delete>
+        <sys_update_name>sys_script_include_93f6a7b0837a8350ac771896feaad384</sys_update_name>
+        <sys_update_version display_value="sys_script_include_93f6a7b0837a8350ac771896feaad384">f1d76b34837a8350ac771896feaad348</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-17 06:53:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

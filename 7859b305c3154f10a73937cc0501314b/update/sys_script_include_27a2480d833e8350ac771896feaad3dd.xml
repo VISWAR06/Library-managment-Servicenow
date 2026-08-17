@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>global.Fetchcategory</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>Fetchcategory</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var Fetchcategory = Class.create();
+Fetchcategory.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	 fetchcategory:function(){
+		var recordid=this.getParameter('sysparm_record_id');
+		var result='';
+		var record=new GlideRecord('u_books');
+		if(record.get(recordid)){
+			result=record.getValue('u_category');
+		}
+		return result;
+		
+	 },
+
+    type: 'Fetchcategory'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-17 08:55:08</sys_created_on>
+        <sys_id>27a2480d833e8350ac771896feaad3dd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Fetchcategory</sys_name>
+        <sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b">7859b305c3154f10a73937cc0501314b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
+        <sys_update_name>sys_script_include_27a2480d833e8350ac771896feaad3dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-17 09:02:10</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>27a2480d833e8350ac771896feaad3dd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-17 08:55:08</sys_created_on>
+        <sys_id>8eb3888d833e8350ac771896feaad3ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-17 08:55:08</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
