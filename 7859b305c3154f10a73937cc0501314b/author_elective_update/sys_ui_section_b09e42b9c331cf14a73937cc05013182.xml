@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="b09e42b9c331cf14a73937cc05013182" sys_domain="global" table="u_user_dashboard" version="3" view="">
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>u_user_dashboard</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-01 09:54:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b09e42b9c331cf14a73937cc05013182</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_user_dashboard</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b">7859b305c3154f10a73937cc0501314b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
+            <sys_update_name>sys_ui_section_b09e42b9c331cf14a73937cc05013182</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-01 09:54:28</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Library Management">7859b305c3154f10a73937cc0501314b</application>
+        <file_path/>
+        <instance_id>56aa2e253b958b10986d048aa4e45a71</instance_id>
+        <instance_name>dev399443</instance_name>
+        <name>sys_ui_section_b09e42b9c331cf14a73937cc05013182</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="b09e42b9c331cf14a73937cc05013182" sys_domain="global" table="u_user_dashboard" version="3" view="">
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>u_user_dashboard</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-01 09:54:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b09e42b9c331cf14a73937cc05013182</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_user_dashboard</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b">7859b305c3154f10a73937cc0501314b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
+            <sys_update_name>sys_ui_section_b09e42b9c331cf14a73937cc05013182</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-01 09:54:28</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>]]></payload>
+        <payload_hash>926097244</payload_hash>
+        <record_name>User Dashboard</record_name>
+        <reverted_from/>
+        <source>a9750bb883368350ac771896feaad335</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-17 04:23:17</sys_created_on>
+        <sys_id>c4854fb883368350ac771896feaad353</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a00df5a58c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-17 04:23:17</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>00854fb8e536835090e4819a45231453</update_guid>
+        <update_guid_history>00854fb8e536835090e4819a45231453:0,85a4c3387c3683503761cd7d14e081da:-231604944,164c8d4583a687507cdb31a1dc9d2a2d:0,9e4c8d45e4a687507a3916748ff74928:926097244</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-18 03:54:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>5068ee7f182f4bfb9b482450a0701e81</sys_id>
+        <sys_metadata>b09e42b9c331cf14a73937cc05013182</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_user_dashboard</sys_name>
+        <sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b">7859b305c3154f10a73937cc0501314b</sys_package>
+        <sys_parent display_value="">8027c3c7c3910f50a73937cc050131cf</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
+        <sys_scope_delete display_value="">3a6fb8a3e030493ea05c1e70fa145c24</sys_scope_delete>
+        <sys_update_name>sys_ui_section_b09e42b9c331cf14a73937cc05013182</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_b09e42b9c331cf14a73937cc05013182">c4854fb883368350ac771896feaad353</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-18 03:54:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
