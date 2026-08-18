@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Library Management">c39eccd6c3bd4354a73937cc05013140</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>My Profile</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>u_user_dashboard</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-17 05:33:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f765d37c83b68350ac771896feaad3e4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>My Profile</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b">7859b305c3154f10a73937cc0501314b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
+        <sys_update_name>sys_app_module_f765d37c83b68350ac771896feaad3e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-17 05:34:33</sys_updated_on>
+        <timeline_page/>
+        <title>My Profile</title>
+        <uncancelable>false</uncancelable>
+        <view_name>My profile</view_name>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Library Management">7859b305c3154f10a73937cc0501314b</application>
+        <file_path/>
+        <instance_id>56aa2e253b958b10986d048aa4e45a71</instance_id>
+        <instance_name>dev399443</instance_name>
+        <name>sys_app_module_f765d37c83b68350ac771896feaad3e4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Library Management">c39eccd6c3bd4354a73937cc05013140</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>My Profile</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_user_dashboard</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-17 05:33:54</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f765d37c83b68350ac771896feaad3e4</sys_id><sys_mod_count>1</sys_mod_count><sys_name>My Profile</sys_name><sys_overrides/><sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b">7859b305c3154f10a73937cc0501314b</sys_package><sys_policy/><sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope><sys_update_name>sys_app_module_f765d37c83b68350ac771896feaad3e4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-17 05:34:33</sys_updated_on><timeline_page/><title>My Profile</title><uncancelable>false</uncancelable><view_name>My profile</view_name><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>112200997</payload_hash>
+        <record_name>My Profile</record_name>
+        <reverted_from/>
+        <source>435ccd0583a68750ac771896feaad393</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-17 05:34:33</sys_created_on>
+        <sys_id>bbc553bc83b68350ac771896feaad317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a00e36e4a10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-17 05:34:33</sys_updated_on>
+        <type>Module</type>
+        <update_guid>f7c553bc00b68350c79b2851635ae216</update_guid>
+        <update_guid_history>f7c553bc00b68350c79b2851635ae216:112200997,9aa5db7cfab68350b125e0599042a156:-42014107</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="My Profile">9b68801d837e0750ac771896feaad3f8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-18 03:54:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>3250d8cd34d842ba8abcd0857debb801</sys_id>
+        <sys_metadata>f765d37c83b68350ac771896feaad3e4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Profile</sys_name>
+        <sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b">7859b305c3154f10a73937cc0501314b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
+        <sys_scope_delete display_value="">3a6fb8a3e030493ea05c1e70fa145c24</sys_scope_delete>
+        <sys_update_name>sys_app_module_f765d37c83b68350ac771896feaad3e4</sys_update_name>
+        <sys_update_version display_value="sys_app_module_f765d37c83b68350ac771896feaad3e4">bbc553bc83b68350ac771896feaad317</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-18 03:54:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="u_acl_check" version="2" view="">
+        <sys_ui_list action="DELETE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>u_acl_check</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by/>
+            <sys_created_on/>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path/>
+            <sys_id>90d20c9d833e0750ac771896feaad350</sys_id>
+            <sys_mod_count/>
+            <sys_name>u_acl_check</sys_name>
+            <sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b">7859b305c3154f10a73937cc0501314b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by/>
+            <sys_updated_on>2026-08-18 03:33:18</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Library Management">7859b305c3154f10a73937cc0501314b</application>
+        <file_path/>
+        <instance_id>56aa2e253b958b10986d048aa4e45a71</instance_id>
+        <instance_name>dev399443</instance_name>
+        <name>sys_ui_list_u_acl_check_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="u_acl_check" version="2" view=""><sys_ui_list action="DELETE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>u_acl_check</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by/><sys_created_on/><sys_domain>global</sys_domain><sys_domain_path/><sys_id>90d20c9d833e0750ac771896feaad350</sys_id><sys_mod_count/><sys_name>u_acl_check</sys_name><sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b">7859b305c3154f10a73937cc0501314b</sys_package><sys_policy/><sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope><sys_update_name/><sys_updated_by/><sys_updated_on>2026-08-18 03:33:18</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>-376748469</payload_hash>
+        <record_name>u_acl_check</record_name>
+        <reverted_from/>
+        <source>435ccd0583a68750ac771896feaad393</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-18 03:33:18</sys_created_on>
+        <sys_id>21a3c451837e0750ac771896feaad31a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a012ee3f380000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-18 03:33:18</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>eda3c451dc7e075082671ac5a0207618</update_guid>
+        <update_guid_history>eda3c451dc7e075082671ac5a0207618:-376748469</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-18 03:39:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>117b1743f9834d069795fe417010a104</sys_id>
+        <sys_metadata>36040491837e0750ac771896feaad37d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_acl_check</sys_name>
+        <sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b">7859b305c3154f10a73937cc0501314b</sys_package>
+        <sys_parent display_value="">9a040491837e0750ac771896feaad3af</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
+        <sys_scope_delete display_value="">3a6fb8a3e030493ea05c1e70fa145c24</sys_scope_delete>
+        <sys_update_name>sys_ui_list_u_acl_check_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_u_acl_check_null">21a3c451837e0750ac771896feaad31a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-18 03:39:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

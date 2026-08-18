@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Library Management">c39eccd6c3bd4354a73937cc05013140</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>ACL</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>u_acl_check</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-18 03:30:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>38e2c8dd833e0750ac771896feaad37e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ACL</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b">7859b305c3154f10a73937cc0501314b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
+        <sys_update_name>sys_app_module_38e2c8dd833e0750ac771896feaad37e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-18 03:30:28</sys_updated_on>
+        <timeline_page/>
+        <title>ACL</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Library Management">7859b305c3154f10a73937cc0501314b</application>
+        <file_path/>
+        <instance_id>56aa2e253b958b10986d048aa4e45a71</instance_id>
+        <instance_name>dev399443</instance_name>
+        <name>sys_app_module_38e2c8dd833e0750ac771896feaad37e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Library Management">c39eccd6c3bd4354a73937cc05013140</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>ACL</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_acl_check</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-18 03:30:28</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>38e2c8dd833e0750ac771896feaad37e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ACL</sys_name><sys_overrides/><sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b">7859b305c3154f10a73937cc0501314b</sys_package><sys_policy/><sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope><sys_update_name>sys_app_module_38e2c8dd833e0750ac771896feaad37e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-18 03:30:28</sys_updated_on><timeline_page/><title>ACL</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-81556809</payload_hash>
+        <record_name>ACL</record_name>
+        <reverted_from/>
+        <source>435ccd0583a68750ac771896feaad393</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-18 03:30:28</sys_created_on>
+        <sys_id>8c030011837e0750ac771896feaad33a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a012eba6330000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-18 03:30:28</sys_updated_on>
+        <type>Module</type>
+        <update_guid>0803ccdddb3e0750fb78254791fec84d</update_guid>
+        <update_guid_history>0803ccdddb3e0750fb78254791fec84d:-81556809</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="ACL">c5a38451837e0750ac771896feaad335</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-18 03:33:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>689d6f13d866498fb257bb50dc875a69</sys_id>
+        <sys_metadata>38e2c8dd833e0750ac771896feaad37e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ACL</sys_name>
+        <sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b">7859b305c3154f10a73937cc0501314b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
+        <sys_scope_delete display_value="">3a6fb8a3e030493ea05c1e70fa145c24</sys_scope_delete>
+        <sys_update_name>sys_app_module_38e2c8dd833e0750ac771896feaad37e</sys_update_name>
+        <sys_update_version display_value="sys_app_module_38e2c8dd833e0750ac771896feaad37e">8c030011837e0750ac771896feaad33a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-18 03:33:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
