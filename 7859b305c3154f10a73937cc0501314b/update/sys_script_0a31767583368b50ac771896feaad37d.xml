@@ -11,14 +11,14 @@
         <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
-        <collection>u_book_issue</collection>
+        <collection>u_books</collection>
         <condition/>
         <description/>
         <execute_function>false</execute_function>
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>Count</name>
+        <name>SET Avail count</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -28,37 +28,42 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
-	current.u_availabel_count=current.total_count;
+	var tlcount=current.getValue('u_total_count');
+	if(tlcount){
+		current.setValue('u_availabel_count',tlcount);
+	}
+	else current.setValue('u_availabel_count','0');
+
 	// Add your code here
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-08-17 10:00:33</sys_created_on>
+        <sys_created_on>2026-08-20 05:30:58</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>6eb1584d83be8350ac771896feaad3f5</sys_id>
+        <sys_id>0a31767583368b50ac771896feaad37d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Count</sys_name>
+        <sys_name>SET Avail count</sys_name>
         <sys_overrides/>
         <sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b">7859b305c3154f10a73937cc0501314b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
-        <sys_update_name>sys_script_6eb1584d83be8350ac771896feaad3f5</sys_update_name>
+        <sys_update_name>sys_script_0a31767583368b50ac771896feaad37d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-17 10:00:33</sys_updated_on>
+        <sys_updated_on>2026-08-20 05:30:58</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=6eb1584d83be8350ac771896feaad3f5"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=0a31767583368b50ac771896feaad37d"/>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
-        <id>6eb1584d83be8350ac771896feaad3f5</id>
+        <id>0a31767583368b50ac771896feaad37d</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-08-17 10:00:32</sys_created_on>
-        <sys_id>1cb290cd83be8350ac771896feaad3da</sys_id>
+        <sys_created_on>2026-08-20 05:30:57</sys_created_on>
+        <sys_id>58c1f6b583368b50ac771896feaad3ee</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-17 10:00:32</sys_updated_on>
+        <sys_updated_on>2026-08-20 05:30:57</sys_updated_on>
         <table>sys_script</table>
         <use_es_latest>true</use_es_latest>
     </sys_es_latest_script>
