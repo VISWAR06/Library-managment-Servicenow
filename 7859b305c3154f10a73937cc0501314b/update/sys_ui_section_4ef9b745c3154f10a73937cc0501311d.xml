@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_section caption="" section_id="4ef9b745c3154f10a73937cc0501311d" sys_domain="global" table="u_books" version="3" view="">
+    <sys_ui_section caption="Books Entry" section_id="4ef9b745c3154f10a73937cc0501311d" sys_domain="global" table="u_books" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-08-17 09:16:08</sys_created_on>
-            <sys_id>3588c849837e8350ac771896feaad3c8</sys_id>
+            <sys_created_on>2026-08-19 04:25:58</sys_created_on>
+            <sys_id>364955a9833ac750ac771896feaad3c7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="u_books" sys_domain="global" view="Default view">4ef9b745c3154f10a73937cc0501311d</sys_ui_section>
+            <sys_ui_section caption="Books Entry" display_value="Books Entry" name="u_books" sys_domain="global" view="Default view">4ef9b745c3154f10a73937cc0501311d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-08-17 09:16:08</sys_updated_on>
+            <sys_updated_on>2026-08-19 04:25:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>u_author</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-08-17 09:16:08</sys_created_on>
-            <sys_id>b188c849837e8350ac771896feaad3c9</sys_id>
+            <sys_created_on>2026-08-19 04:25:58</sys_created_on>
+            <sys_id>b24955a9833ac750ac771896feaad3c8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="u_books" sys_domain="global" view="Default view">4ef9b745c3154f10a73937cc0501311d</sys_ui_section>
+            <sys_ui_section caption="Books Entry" display_value="Books Entry" name="u_books" sys_domain="global" view="Default view">4ef9b745c3154f10a73937cc0501311d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-08-17 09:16:08</sys_updated_on>
+            <sys_updated_on>2026-08-19 04:25:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>u_total_count</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-08-17 09:16:08</sys_created_on>
-            <sys_id>3188c849837e8350ac771896feaad3ca</sys_id>
+            <sys_created_on>2026-08-19 04:25:58</sys_created_on>
+            <sys_id>324955a9833ac750ac771896feaad3c9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="u_books" sys_domain="global" view="Default view">4ef9b745c3154f10a73937cc0501311d</sys_ui_section>
+            <sys_ui_section caption="Books Entry" display_value="Books Entry" name="u_books" sys_domain="global" view="Default view">4ef9b745c3154f10a73937cc0501311d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-08-17 09:16:08</sys_updated_on>
+            <sys_updated_on>2026-08-19 04:25:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>u_fine</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-08-17 09:16:08</sys_created_on>
-            <sys_id>bd88c849837e8350ac771896feaad3ca</sys_id>
+            <sys_created_on>2026-08-19 04:25:58</sys_created_on>
+            <sys_id>be4955a9833ac750ac771896feaad3c9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="u_books" sys_domain="global" view="Default view">4ef9b745c3154f10a73937cc0501311d</sys_ui_section>
+            <sys_ui_section caption="Books Entry" display_value="Books Entry" name="u_books" sys_domain="global" view="Default view">4ef9b745c3154f10a73937cc0501311d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-08-17 09:16:08</sys_updated_on>
+            <sys_updated_on>2026-08-19 04:25:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>.split</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-08-17 09:16:08</sys_created_on>
-            <sys_id>3d88c849837e8350ac771896feaad3cb</sys_id>
+            <sys_created_on>2026-08-19 04:25:58</sys_created_on>
+            <sys_id>3e4955a9833ac750ac771896feaad3ca</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="u_books" sys_domain="global" view="Default view">4ef9b745c3154f10a73937cc0501311d</sys_ui_section>
+            <sys_ui_section caption="Books Entry" display_value="Books Entry" name="u_books" sys_domain="global" view="Default view">4ef9b745c3154f10a73937cc0501311d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-08-17 09:16:08</sys_updated_on>
+            <sys_updated_on>2026-08-19 04:25:58</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>u_name</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-08-17 09:16:08</sys_created_on>
-            <sys_id>b988c849837e8350ac771896feaad3cc</sys_id>
+            <sys_created_on>2026-08-19 04:25:58</sys_created_on>
+            <sys_id>ba4955a9833ac750ac771896feaad3cb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="u_books" sys_domain="global" view="Default view">4ef9b745c3154f10a73937cc0501311d</sys_ui_section>
+            <sys_ui_section caption="Books Entry" display_value="Books Entry" name="u_books" sys_domain="global" view="Default view">4ef9b745c3154f10a73937cc0501311d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-08-17 09:16:08</sys_updated_on>
+            <sys_updated_on>2026-08-19 04:25:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>u_category</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-08-17 09:16:08</sys_created_on>
-            <sys_id>3988c849837e8350ac771896feaad3cd</sys_id>
+            <sys_created_on>2026-08-19 04:25:58</sys_created_on>
+            <sys_id>3a4955a9833ac750ac771896feaad3cc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="u_books" sys_domain="global" view="Default view">4ef9b745c3154f10a73937cc0501311d</sys_ui_section>
+            <sys_ui_section caption="Books Entry" display_value="Books Entry" name="u_books" sys_domain="global" view="Default view">4ef9b745c3154f10a73937cc0501311d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-08-17 09:16:08</sys_updated_on>
+            <sys_updated_on>2026-08-19 04:25:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,18 +102,18 @@
             <element>u_availabe_count</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-08-17 09:16:08</sys_created_on>
-            <sys_id>7d88c849837e8350ac771896feaad3da</sys_id>
+            <sys_created_on>2026-08-19 04:25:58</sys_created_on>
+            <sys_id>b64955a9833ac750ac771896feaad3cd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="u_books" sys_domain="global" view="Default view">4ef9b745c3154f10a73937cc0501311d</sys_ui_section>
+            <sys_ui_section caption="Books Entry" display_value="Books Entry" name="u_books" sys_domain="global" view="Default view">4ef9b745c3154f10a73937cc0501311d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-08-17 09:16:08</sys_updated_on>
+            <sys_updated_on>2026-08-19 04:25:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
-            <caption/>
+            <caption>Books Entry</caption>
             <header>false</header>
             <name>u_books</name>
             <roles/>
@@ -123,7 +123,7 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>4ef9b745c3154f10a73937cc0501311d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_name>u_books</sys_name>
             <sys_overrides/>
             <sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b">7859b305c3154f10a73937cc0501314b</sys_package>
@@ -131,7 +131,7 @@
             <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
             <sys_update_name>sys_ui_section_4ef9b745c3154f10a73937cc0501311d</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-04 13:16:50</sys_updated_on>
+            <sys_updated_on>2026-08-19 04:25:58</sys_updated_on>
             <sys_user/>
             <title>true</title>
             <view display_value="Default view" name="NULL">Default view</view>
