@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 13:19:22</sys_created_on>
+        <sys_id>878abb85c3154f10a73937cc05013115</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_books_request.library_user</sys_name>
+        <sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b">7859b305c3154f10a73937cc0501314b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
+        <sys_security_acl display_value="u_books_request">438abb85c3154f10a73937cc05013110</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_878abb85c3154f10a73937cc05013115</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 13:19:22</sys_updated_on>
+        <sys_user_role display_value="library_user" name="library_user">078abb85c3154f10a73937cc05013107</sys_user_role>
+    </sys_security_acl_role>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Library Management">7859b305c3154f10a73937cc0501314b</application>
+        <file_path/>
+        <instance_id>56aa2e253b958b10986d048aa4e45a71</instance_id>
+        <instance_name>dev399443</instance_name>
+        <name>sys_security_acl_role_878abb85c3154f10a73937cc05013115</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 13:19:22</sys_created_on>
+        <sys_id>878abb85c3154f10a73937cc05013115</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_books_request.library_user</sys_name>
+        <sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b">7859b305c3154f10a73937cc0501314b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
+        <sys_security_acl display_value="u_books_request">438abb85c3154f10a73937cc05013110</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_878abb85c3154f10a73937cc05013115</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 13:19:22</sys_updated_on>
+        <sys_user_role display_value="library_user" name="library_user">078abb85c3154f10a73937cc05013107</sys_user_role>
+    </sys_security_acl_role>
+</record_update>]]></payload>
+        <payload_hash>331323722</payload_hash>
+        <record_name>u_books_request.library_user</record_name>
+        <reverted_from/>
+        <source>a9750bb883368350ac771896feaad335</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-17 04:23:16</sys_created_on>
+        <sys_id>33750fb883368350ac771896feaad3db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a00df5a2500000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-17 04:23:16</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>7b750fb8cf368350444d0e3a3bc371da</update_guid>
+        <update_guid_history>7b750fb8cf368350444d0e3a3bc371da:0,8e948ff445368350f6c97512eef7c355:1207797494,8e4c4d45dda68750c3fbefcf63606074:331323722</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="u_books_request.library_user">e31936b583768b50ac771896feaad38a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-20 06:03:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>172caba8976848929d5b35a19488a024</sys_id>
+        <sys_metadata>878abb85c3154f10a73937cc05013115</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_books_request.library_user</sys_name>
+        <sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b">7859b305c3154f10a73937cc0501314b</sys_package>
+        <sys_parent display_value="u_books_request">438abb85c3154f10a73937cc05013110</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
+        <sys_scope_delete display_value="">3a6fb8a3e030493ea05c1e70fa145c24</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_878abb85c3154f10a73937cc05013115</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_878abb85c3154f10a73937cc05013115">33750fb883368350ac771896feaad3db</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-20 06:03:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
