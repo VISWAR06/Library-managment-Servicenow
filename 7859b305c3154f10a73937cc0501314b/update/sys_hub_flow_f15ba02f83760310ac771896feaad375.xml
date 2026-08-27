@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=2950000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=18085000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>28100</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,16 +15,16 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>closing_records</internal_name>
-        <label_cache>[{"name":"Updated_1.current.sys_id","label":"Trigger - Record Updated➛Book Issue Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"u_book_issue","column_name":"sys_id","usedInstances":{}},{"name":"68d811c2-544d-4bb9-a507-f01b7b5b2e86.Record","label":"1 - Look Up Record➛Books Request Record","reference":"u_books_request","reference_display":"Books Request","type":"reference","base_type":"reference","usedInstances":{"a27fa022-4198-4755-b499-8343cdcf9412":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.u_reference.sys_id","label":"Trigger - Record Updated➛Book Issue Record➛Reference➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"u_books_request","column_name":"sys_id","usedInstances":{"68d811c2-544d-4bb9-a507-f01b7b5b2e86":["conditions"]}}]</label_cache>
+        <label_cache>[{"name":"Updated_1.current.u_reference.sys_id","label":"Trigger - Record Updated➛Book Issue Record➛Reference➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"u_books_request","column_name":"sys_id","usedInstances":{"68d811c2-544d-4bb9-a507-f01b7b5b2e86":["conditions"]}},{"name":"68d811c2-544d-4bb9-a507-f01b7b5b2e86.Record","label":"1 - Look Up Record➛Books Request Record","reference":"u_books_request","reference_display":"Books Request","type":"reference","base_type":"reference","usedInstances":{"a27fa022-4198-4755-b499-8343cdcf9412":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.sys_id","label":"Trigger - Record Updated➛Book Issue Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"u_book_issue","column_name":"sys_id","usedInstances":{}}]</label_cache>
         <master_snapshot>b3aba06f83760310ac771896feaad32d</master_snapshot>
         <master_snapshot_digest/>
         <name>Closing Records</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id>16967ca783f60310ac771896feaad3ed</remote_trigger_id>
-        <run_as>user</run_as>
-        <run_with_roles>baf9f745c3154f10a73937cc05013126,e039f6b583768b50ac771896feaad3d5</run_with_roles>
+        <remote_trigger_id>ad50b1e383fe0310ac771896feaad3ab</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f15ba02f83760310ac771896feaad375</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_name>Closing Records</sys_name>
         <sys_overrides/>
         <sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b">7859b305c3154f10a73937cc0501314b</sys_package>
@@ -44,11 +44,11 @@
         <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
         <sys_update_name>sys_hub_flow_f15ba02f83760310ac771896feaad375</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-25 07:02:21</sys_updated_on>
+        <sys_updated_on>2026-08-25 11:14:30</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
-        <version_record>e296bca783f60310ac771896feaad346</version_record>
+        <version_record>bd50f1e383fe0310ac771896feaad35c</version_record>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=f15ba02f83760310ac771896feaad375"/>
     <sys_variable_value action="delete_multiple" query="document_key=f15ba02f83760310ac771896feaad375"/>
@@ -68,15 +68,15 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-08-25 07:02:15</sys_created_on>
+        <sys_created_on>2026-08-25 11:14:30</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>16967ca783f60310ac771896feaad3ed</sys_id>
+        <sys_id>ad50b1e383fe0310ac771896feaad3ab</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-25 07:02:15</sys_updated_on>
+        <sys_updated_on>2026-08-25 11:14:30</sys_updated_on>
         <table>u_book_issue</table>
         <trigger_definition/>
     </sys_flow_record_trigger>
@@ -87,14 +87,14 @@
         <identifier_type>flow</identifier_type>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-08-25 07:02:15</sys_created_on>
-        <sys_id>12967ca783f60310ac771896feaad3ee</sys_id>
+        <sys_created_on>2026-08-25 11:14:30</sys_created_on>
+        <sys_id>e550b1e383fe0310ac771896feaad3ad</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-25 07:02:15</sys_updated_on>
-        <trigger display_value="">16967ca783f60310ac771896feaad3ed</trigger>
+        <sys_updated_on>2026-08-25 11:14:30</sys_updated_on>
+        <trigger display_value="">ad50b1e383fe0310ac771896feaad3ab</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=f15ba02f83760310ac771896feaad375^sys_idNOT IN12967ca783f60310ac771896feaad3ee"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=f15ba02f83760310ac771896feaad375^sys_idNOT INe550b1e383fe0310ac771896feaad3ad"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=f15ba02f83760310ac771896feaad375"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=f15ba02f83760310ac771896feaad375^sys_idNOT IN795ba02f83760310ac771896feaad376"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -402,10 +402,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-08-25 06:13:47</sys_created_on>
         <sys_id>288ba82f83760310ac771896feaad38b</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-25 07:04:27</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-08-25 11:16:18</sys_updated_on>
         <ui_id>68d811c2-544d-4bb9-a507-f01b7b5b2e86</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+VYTW/bOBD9K4LOjlfyl+zcdhMYKNBtgCTtpVsQlEjFRGlSIamkjuH/3qEoyYKt2NauAyTYI4dD8s3Me0NK39c+I/6lT2bBLJ3NxtMoCIbDIJhMhgkO43g4SeIgxiO/5wu8pOBpcMwpDJ8wz+04R7GUPzVS9DGn2sAMYTrjePWtdPjLTnu39XSyYJwoKvzL7z96foYV7Guo8i/XO1OnAuM4phxc70tkO0DNKquHqJhzts/NZd4XNyEVsVCCnk9/GSoIBQwp5pr2/CUWBBupVrVFUUxuBN8aFkwY2NG3zr80e4Fzp4H1SylElVA3Vw9RmSlnTq+xwXdG5YnJVemaLCRLqHb5IDTFOTdXTZtzuMkMk8ItcWG71ZLnS/HFpcOvN6gKA5ZcAwia2UAt8jKM9G4hn28rlHMmipyUk1wmmNcjbIxicW4snrVPOV3CRmiJs4yJB5Qp+cSKxYBl2X/gMOinXD7DoZo9iD5OLPA+5BX352C/LszfsGI2ir9hG1gMgBgHhiBXQi1zVaTyCSU818WEwkK7vfxNz9crfcWx1tvIIeXoMbe4XR7KiJFLml2SKJaZP2GLJ1oGt+lV2hgfpOBsS7lECsIsCt0QCKBBjPyTw2KyXn/NIFhKUNhPcgX5Nf0c1YToO9/NZl9F/3KXjmI7HmkltqtmqG3hl7Lbs31u26CUXXg22Y2C4CMJDw5/f7rrriSXgiNyCslBkpEtn7RUBrlcNvS0r43OPD8BQsXzG8tML169hqqkecooJ223y9xO7Nwug//n7fIuSQ6ACHLVY4IzUTwVAOhbsX98kHpxuMOzgl6Nu8TasE72NYA9I72Xzko4AU6lhDs427t3eFogVv2+oMxur6+MpQCGZxPAcHAeAazrMOtEtuS8eh3aalb+L9Yf7/oDBRsLwk2bwDqdGXY9c7DZF/Cwk4KbZHMz169w7szPyFcU2XvLFrCApeV5yOkXPTPyQM329MqLSPOM+c+2+ZJxqCpUEd4bPEnDg19FceNJylK0hMqxDF7OiiZADo2woiiVuSCofDM3vuagkilT2pTO+43mloJ+hCdBmJ5ZUK/w9mrvjhfx8TiqVH5KvSqQ8jTtQSBeEYhXB9It7C5Na3TGx+m5m9YcM15UAz6HskY5qVJSvdK4jhTyACNO7GonggrPCuq/t702CbS2vyNYP8S39flbU0JxPBrgSTQMwyAIAxIF0ygKp5M4neBolG41ipAWCXRT2DkFqsD2qKJGVedgv/+4ltq10ZyAqqLgtRT2M3sQGc/Cgvp6FazjwMuGEkvJKRY7HeUe7ok/5iX+kq/jd9dVPsSfppzd72bamVpz/Vbvhpx9Fewxp58sxaY0GExDklxMozC6GKVkcjEjeHyBZ/E4GhKajNJzPgV+/AZLBp5zuxUAAA==</values>
@@ -426,10 +426,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-08-25 06:14:13</sys_created_on>
         <sys_id>329bac2f83760310ac771896feaad334</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-25 07:04:27</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-08-25 11:16:18</sys_updated_on>
         <ui_id>a27fa022-4198-4755-b499-8343cdcf9412</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+VVXW/aMBT9K8jPASUhUOBtK0Ka1LUSnXhpq8ixb8CaE6f+oGWI/z4ncQKDrqNSX9Dydr/sc07OTR62iFE0QRFQPxgHQ9IP+v3Q98NRFCTDfhKEtI8BAuShHGdgOyUQIamN15ibMrHdDkd0FAQk7A6iiHajJBl38cC/6qZ+kFwlgySE0bA3r+Z2OztJmSo43izcATZDVoxTCTmaPDx5qMDS3qVBosn2qHQuWI4T4LZ13qA9Rq83RRlTQUwGuY5Zk7xxk1NX6Xyb2oodKuEEvofgVUNOwQJJMVfgoQznFGshN2iipbEJCZje5XzTdqxYrmuiGX5V7Je9OfLLvhQsM+JEaMPYCVSn0ynW+N6eTLSRrV6CEVC1JhRSbLi+PszVDXeFZiKvRzROeDMtuMny21oR1B5w8D6MsiCgKHmWyGta6f1KvMwbkDOWV5I4ilwQzNsIay1ZYnQJZ4uAQ6VxhouC5cu4kGLNqmELJestuQ16KRcv9k7FlnkPkxJ3z6qKezObn1bpBZasJPHdHmOHdx5SG3XNsVJ7KlbD+NmUSGpijkJcqVBJEFdOKIeJZIX+Yq9agwO+89w6JIP3HEbGe0MdnLlfCRMnQvxUsYRnA0qfWv5rWe7M2/LH/H8Gusb/P6q3/jZatwInuZvD2c5tXXALMPi0BRhd0gI4Ghe/Af/yvR+++2U9cFJldfWH55XG2qhH4/t9SrhQQE+N/5euj/n/DJSN/2cMOFVvwG7MD5mFpyGuaRwtgCt2Fq7Y/gU+bQuCoV89F7QL/83P4Ok3Q52SZx0JAAA=</values>
@@ -524,15 +524,15 @@
         <description/>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>closing_records</internal_name>
-        <label_cache>[{"name":"Updated_1.current.sys_id","label":"Trigger - Record Updated➛Book Issue Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"u_book_issue","column_name":"sys_id","usedInstances":{}},{"name":"68d811c2-544d-4bb9-a507-f01b7b5b2e86.Record","label":"1 - Look Up Record➛Books Request Record","reference":"u_books_request","reference_display":"Books Request","type":"reference","base_type":"reference","usedInstances":{"a27fa022-4198-4755-b499-8343cdcf9412":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.u_reference.sys_id","label":"Trigger - Record Updated➛Book Issue Record➛Reference➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"u_books_request","column_name":"sys_id","usedInstances":{"68d811c2-544d-4bb9-a507-f01b7b5b2e86":["conditions"]}}]</label_cache>
+        <label_cache>[{"name":"Updated_1.current.u_reference.sys_id","label":"Trigger - Record Updated➛Book Issue Record➛Reference➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"u_books_request","column_name":"sys_id","usedInstances":{"68d811c2-544d-4bb9-a507-f01b7b5b2e86":["conditions"]}},{"name":"68d811c2-544d-4bb9-a507-f01b7b5b2e86.Record","label":"1 - Look Up Record➛Books Request Record","reference":"u_books_request","reference_display":"Books Request","type":"reference","base_type":"reference","usedInstances":{"a27fa022-4198-4755-b499-8343cdcf9412":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.sys_id","label":"Trigger - Record Updated➛Book Issue Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"u_book_issue","column_name":"sys_id","usedInstances":{}}]</label_cache>
         <master>true</master>
         <name>Closing Records</name>
         <natlang/>
         <outputs/>
         <parent_flow display_value="Closing Records">f15ba02f83760310ac771896feaad375</parent_flow>
         <remote_trigger_id/>
-        <run_as>user</run_as>
-        <run_with_roles>baf9f745c3154f10a73937cc05013126,e039f6b583768b50ac771896feaad3d5</run_with_roles>
+        <run_as>system</run_as>
+        <run_with_roles/>
         <sc_callable>false</sc_callable>
         <status>published</status>
         <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
@@ -541,7 +541,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b3aba06f83760310ac771896feaad32d</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -549,7 +549,7 @@
         <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-25 07:02:14</sys_updated_on>
+        <sys_updated_on>2026-08-25 11:14:30</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -633,14 +633,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-08-25 06:14:33</sys_created_on>
         <sys_id>3baba06f83760310ac771896feaad330</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-25 07:02:14</sys_updated_on>
+        <sys_updated_on>2026-08-25 11:14:30</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -717,14 +717,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-08-25 06:14:34</sys_created_on>
         <sys_id>77aba06f83760310ac771896feaad35a</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-25 07:02:14</sys_updated_on>
+        <sys_updated_on>2026-08-25 11:14:30</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -981,18 +981,18 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"c0bba06f83760310ac771896feaad3ac","name":"plan","plan_signature":null}}</plan>
         <plan_id>f15ba02f83760310ac771896feaad375</plan_id>
-        <snapshot>e617302b83f60310ac771896feaad3d8</snapshot>
+        <snapshot>7fb0f12783fe0310ac771896feaad31a</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-08-25 06:14:34</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c0bba06f83760310ac771896feaad3ac</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-25 07:02:15</sys_updated_on>
-        <trigger display_value="">16967ca783f60310ac771896feaad3ed</trigger>
+        <sys_updated_on>2026-08-25 11:14:30</sys_updated_on>
+        <trigger display_value="">ad50b1e383fe0310ac771896feaad3ab</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=f15ba02f83760310ac771896feaad375"/>
 </record_update>
