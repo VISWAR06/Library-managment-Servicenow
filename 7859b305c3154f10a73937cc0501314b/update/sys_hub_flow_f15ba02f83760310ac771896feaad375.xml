@@ -15,7 +15,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>closing_records</internal_name>
-        <label_cache>[{"name":"Updated_1.current.u_reference.sys_id","label":"Trigger - Record Updated➛Book Issue Record➛Reference➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"u_books_request","column_name":"sys_id","usedInstances":{"68d811c2-544d-4bb9-a507-f01b7b5b2e86":["conditions"]}},{"name":"68d811c2-544d-4bb9-a507-f01b7b5b2e86.Record","label":"1 - Look Up Record➛Books Request Record","reference":"u_books_request","reference_display":"Books Request","type":"reference","base_type":"reference","usedInstances":{"a27fa022-4198-4755-b499-8343cdcf9412":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.sys_id","label":"Trigger - Record Updated➛Book Issue Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"u_book_issue","column_name":"sys_id","usedInstances":{}}]</label_cache>
+        <label_cache>[{"name":"Updated_1.current.sys_id","label":"Trigger - Record Updated➛Book Issue Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"u_book_issue","column_name":"sys_id","usedInstances":{}},{"name":"68d811c2-544d-4bb9-a507-f01b7b5b2e86.Record","label":"1 - Look Up Record➛Books Request Record","reference":"u_books_request","reference_display":"Books Request Record","type":"reference","base_type":"reference","usedInstances":{"a27fa022-4198-4755-b499-8343cdcf9412":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.u_reference.sys_id","label":"Trigger - Record Updated➛Book Issue Record➛Reference➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"u_books_request","column_name":"sys_id","usedInstances":{"68d811c2-544d-4bb9-a507-f01b7b5b2e86":["conditions"]}}]</label_cache>
         <master_snapshot>b3aba06f83760310ac771896feaad32d</master_snapshot>
         <master_snapshot_digest/>
         <name>Closing Records</name>
@@ -23,12 +23,12 @@
         <outputs/>
         <pre_compiled>false</pre_compiled>
         <remote_trigger_id>ad50b1e383fe0310ac771896feaad3ab</remote_trigger_id>
-        <run_as>system</run_as>
-        <run_with_roles/>
+        <run_as>user</run_as>
+        <run_with_roles name="library_admin">baf9f745c3154f10a73937cc05013126</run_with_roles>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>published</status>
+        <status>draft</status>
         <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f15ba02f83760310ac771896feaad375</sys_id>
-        <sys_mod_count>31</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_name>Closing Records</sys_name>
         <sys_overrides/>
         <sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b">7859b305c3154f10a73937cc0501314b</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
         <sys_update_name>sys_hub_flow_f15ba02f83760310ac771896feaad375</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-25 11:14:30</sys_updated_on>
+        <sys_updated_on>2026-08-27 10:49:44</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
