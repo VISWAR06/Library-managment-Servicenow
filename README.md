@@ -1,3 +1,2 @@
-Library managemnet using servicenow
-servicenow file cahnges
-little work
+31 aug:
+  Planing to find the mistakes in the project and need to correct it
