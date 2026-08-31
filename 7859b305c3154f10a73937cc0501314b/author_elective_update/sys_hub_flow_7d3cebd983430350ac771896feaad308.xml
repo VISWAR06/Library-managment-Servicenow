@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>labelCacheCleanUpExecuted=true</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>remainder_book_last_date</internal_name>
+        <label_cache>[{"name":"95554a55-1d7f-48b9-b1dc-ad4cbebcc56b.item.u_status","label":"2 - For Each➛Book Issue Record➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","parent_table_name":"u_book_issue","column_name":"u_status","choices":[{"label":null,"value":null,"order":0.0}],"usedInstances":{"bf44522a-afa3-42bc-b709-5ff81cf0a4c8":["condition"]},"attributes":null},{"name":"f44f7a17-a6df-4447-b353-2d61961c271c.Records","label":"1➛Book Issue Records","reference":"u_book_issue","reference_display":"Book Issue Records","type":"records","base_type":"records","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"95554a55-1d7f-48b9-b1dc-ad4cbebcc56b.item.u_email","label":"2 - For Each➛Book Issue Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"u_book_issue","column_name":"u_email","choices":[{"label":null,"value":null,"order":0.0}],"usedInstances":{"21d4d5ab-75d5-4fd6-99a2-8a45b7879158":["ah_to"],"17ddb571-a37a-4b58-acfd-33096604c802":["ah_to"]},"attributes":null},{"name":"95554a55-1d7f-48b9-b1dc-ad4cbebcc56b.item.u_end_date","label":"2 - For Each➛Book Issue Record➛End Date","reference":"","reference_display":"End Date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"u_book_issue","column_name":"u_end_date","choices":[{"label":null,"value":null,"order":0.0}],"usedInstances":{"0fe660f1-84d0-4524-82e1-69a2e349a1b3":["condition"]},"attributes":null},{"name":"95554a55-1d7f-48b9-b1dc-ad4cbebcc56b.item.u_book_name","label":"2 - For Each➛Book Issue Record➛Book Name","reference":"","reference_display":"Book Name","type":"string","base_type":"string","parent_table_name":"u_book_issue","column_name":"u_book_name","choices":[{"label":null,"value":null,"order":0.0}],"usedInstances":{"17ddb571-a37a-4b58-acfd-33096604c802":[null]},"attributes":null}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Remainder Book Last Date</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-31 06:45:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7d3cebd983430350ac771896feaad308</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Remainder Book Last Date</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b">7859b305c3154f10a73937cc0501314b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
+        <sys_update_name>sys_hub_flow_7d3cebd983430350ac771896feaad308</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-31 06:58:02</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record>c12f639183830350ac771896feaad354</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=7d3cebd983430350ac771896feaad308"/>
+    <sys_variable_value action="DELETE" query="document_key=7d3cebd983430350ac771896feaad308"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=7d3cebd983430350ac771896feaad308"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=7d3cebd983430350ac771896feaad308^sys_idNOT INf13cebd983430350ac771896feaad30a"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>7d3cebd983430350ac771896feaad308</id>
+        <name>Remainder Book Last Date</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-31 06:45:06</sys_created_on>
+        <sys_id>f13cebd983430350ac771896feaad30a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-31 06:45:06</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=f13cebd983430350ac771896feaad30a"/>
+    <sys_hub_flow_input action="DELETE" query="model=7d3cebd983430350ac771896feaad308"/>
+    <sys_hub_flow_output action="DELETE" query="model=7d3cebd983430350ac771896feaad308"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=7d3cebd983430350ac771896feaad308"/>
+    <sys_hub_trigger_instance_v2 action="DELETE" query="flow=7d3cebd983430350ac771896feaad308^sys_idNOT IN86ac671d83430350ac771896feaad393"/>
+    <sys_hub_trigger_instance_v2 action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Remainder Book Last Date">7d3cebd983430350ac771896feaad308</flow>
+        <generation_source/>
+        <name>Daily</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-31 06:47:02</sys_created_on>
+        <sys_id>86ac671d83430350ac771896feaad393</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-31 06:47:17</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/21Sy27bMBD8lYJnVZDs9KVbkMBAgTQBaiOXIBBW5MomyldIyolq+N+7lGTFSSPwwtnd2ZkRHw5MQYOKVWwjNbKMSRPRG1Cb3iGhWyUF1nGsaTACovU9q6LvMGOtt3qD2imI1NyCCgRaL9CzqiyKjO1Bdbjuw09BXMRgQCfWiW+o0rX88a34XJR0PhVFNRyqChmIuL+fmgjhO6mER8Oqh8eMOfDEFtOuwyz7Rpo/HzXLJGAJ4gIFL/hyQV9RLL5flM3XZVMuxBIQv9DUuzTe6o0fZJKwm7dD5wHgS0QjUMzp/JehRxB3RvVzx468jBY0vAT5Fycqjy2SHz6FMV/rKagRbq8hwpqoeez8nJuVHMOYhMAWOhWvzrGx4c5Fac04EqFRp2mrOm1uxyTYTHD2X7pAItAlo0n65KNd7+zz75PKlTRDKlNRWQ5qvkGMXjZdTHoODBVqIqo1OCfNtnbe7uUwTFp0PsSft8o+09IgtyYHnoTnlCvkK8KvB/gevEwufhENDR8zFvpwpSCEVy8UYv3UJSWjs8lDPcZwnB/hSqKannDgXrp4SSv3pzd/fPwHlkXQT0gDAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="DELETE" query="flow=7d3cebd983430350ac771896feaad308^sys_idNOT IN2dccef1d83430350ac771896feaad38c,c01faf5183830350ac771896feaad34b"/>
+    <sys_hub_action_instance_v2 action="DELETE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Remainder Book Last Date">7d3cebd983430350ac771896feaad308</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-31 06:47:33</sys_created_on>
+        <sys_id>2dccef1d83430350ac771896feaad38c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-31 06:53:21</sys_updated_on>
+        <ui_id>f44f7a17-a6df-4447-b353-2d61961c271c</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VWXU/bMBT9K1WeNimqUloK69O2IiQkoBIgXhCynMRpPdw4s52Wgvjvu/5ImqWhtFMmddpTlHtt3+Nzz7H98OrR2Bt5QTIIAtw7Pj0Jgn4/CIbDfoR7YdgfRmEQHn/xfC/FcwIjJRcKqVVGILTALC9jWEYQiqnMGF7duwzuKN55gXg0oywWJPVGD4++l2EBqykivNFrLbUrHIZDwmDoLdTu3Fk8DRDNZwQ1OI2K/0s3dVwEuYg1lL7vkWdF0pgAhgQzSXxvjtMYKy5WZUQQHE9Stg7MaKpgNU8Pfpb0Ber1j/S4hMCuImJz5S9yFNlwcoYVvlUij1Qu3FALVgIfr+U2SyIbOHfwgzd/Pf5Fj8f18TGpTui9Ad8xSXDO1PjPavb2rXmka9oNTjJFOXTd6+u+4JAV2+csn6fXtpdeifC+QWw2c/aO5nIJZJNMN1R3yLUruZ3x5U3RjXOaGlwuyXiEWfmHlRI0zJXm5dVLYpRQwmJEU0ZTXQnapuVDGJlDBTTHWUbTKcoEX1CzKuxl3p0y+OkmjC81F3SadnGkd94FYeHuOcTPTPgeC6pZuIJlYLKvC85gqquHZCRoptCSxlOi1tWLUTFXS8yemvJOcaholNme9+Z7ciXHDEu5Jhtkin7mmgNLvWMPmUaZKQbFN9jBgjiitAaMbaOTrbY9rlnUNrqil83zY++TYwcIBQsTrchOuHoPlTs6bM/NiN+Pj3Od6FzbRCHv1o6Q06CdI6TJ4psW3MuBm9bSUvt3nLW/8C03H6h/sPXSGvbWOoMmI0EkUCor6u8FQbDpgJ5vw/vZYAcshQ2u8HPnpgTTiNA5AURKpuZkqtrgoow6Dwxa88DgcD1QNKvxBip61vIFdChu+MgIp9tfb8FaZhFPY6oxVn2QIyiGADSZXN/xOReCL7/+wAtsa46mshuSKU1T4GCSFCM+fa6NgUWq2U1n/bU6+1l1B7YKq46rdDVRWLx267HLpgWKJ1yLdg0O17CtX1qH4sad7qbtIhuEaz3Z5apuDDl/QlRKcyPXPPQdcp0Ll2tT9wZSofs7h6kG0and/DY90My02gMt+D8faId59QAgykAhyLZQ8lwYKhcoYrk0CYFTaddq8aJ6/AVEJfBO9xAAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=2dccef1d83430350ac771896feaad38c"/>
+    <sys_hub_action_instance_v2 action="DELETE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Remainder Book Last Date">7d3cebd983430350ac771896feaad308</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>bf44522a-afa3-42bc-b709-5ff81cf0a4c8</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-31 06:57:33</sys_created_on>
+        <sys_id>c01faf5183830350ac771896feaad34b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-31 06:57:52</sys_updated_on>
+        <ui_id>21d4d5ab-75d5-4fd6-99a2-8a45b7879158</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Y227bOBD9FYHPtitfJNt568YIGiBtgcboPjSFQJFUzJYStRIV12vk33coUpZ8gWOvHTQF/GYOL3NmeI44429LxCm6Qt545PphNMBDt9/ru+6oNx6H/XHkjoZjt0sxaqEExwxW4lmgJAyfsCj0eLkce543wJ7X7tJh1B6MwnE77FLSxnRAQhYS4vlhhysWd4qAxZiL52cHDqA8TwVefD31HDLjgmYsQVffvrdQijPAqViGrpYbU4cGKnDIBCydyu2o1SLVw1xlPHm04zu7/r4yyoxq//0WYr8USygDxxEWOWuhGCcUK5kt0JXKCjBkDNPPiVg0VvzK+b/gZOS6rp6PGERAtFfUGAY2fcYcTbDC4L8gqsjsUjKTnLDcxE5ZhAuhrps2s+BzqrhMzBaFQ1HtlqKIk08merQ6oLotsBQ5gGCpji9RK/jR/UzOv1Qob3hSpsJOCkmwWI2wgoSFhdJ4logJFsNBQYzTFNIYpJl84uVmwBJ3HgUMOpGQc3Ca88ekg4kG3oF04s4N2Cel+SvOuI7iIxwDmzVwwWNeEgLplKPnFsoX+bXAeV6HB3kN/ik0OBOsDSswmdFbSMZT9R58PjEbwXPLisf1/TD0Q2/Yrzk1JhEdhpGPh6Rf02iOAUiMs5+GwA0ZdbcVUaI9lt8HYKn4fZsQUVDm/F2B2ofTEj+UUjCcbDB/Ckjf3eic1Ozv7We/tWzRf8Y1mZBhpaOkA/coFg52VpC0Uc2YUyKDX1g5PHdyuK2OM5UOt1E1drSchSycuMgVLFMwo3D2CD8yRgBsBzVEN3i7krN0sNbJTq78EZo8vwC7dN9Hnflr33F4SBq625bd0ZI7wHslub+ur3dgOeZR8f6frC6vyh/3quC9tIp660SSdNFg9UPhun2SOjqMtuLJIiYsk1KFkKuf5SR9QA9mGaMF0wuZ2fQuNdZtYdhDX9h0nHYOCHKlHRPiVsxWPTMViw3tfJh+vKuVMzxROb7n9f2LdE6WTjqnPZrJNLWxvZJ8BnuZRWhNJVMGnPdNOMD7qs0wxciXCsUmKstvKklR3genGzSf2BnndlKz3T2p/Hqf55JwkHfeKLXmXM2geNpRNfV767qAGoyXJNytj9t6+g3oxPRhR8gkumc4I7MbzoS+6qSIw5LY6/IhUCdnwQZpbZn2VuqqMm1BSbiXKqz9bfOg5m3jzPNWWS8jqBWl2bAbkVXTlu2uudf5ZCaslrpHaskwykppCvpZ6zccZeE1arLLs3Lys8LzwBDYxlY6f4V3xdtf7ZO1EiUvwh+MqIYSqrppWxGNmSP/0noZUaWM+xWeXRiP6UP8y59bv5305yc33fuRZe4acc7dRx/gvOLxRht9dBc9uHTRv5++r9pFf/8PkeyHfNoYAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=c01faf5183830350ac771896feaad34b"/>
+    <sys_hub_sub_flow_instance_v2 action="DELETE" query="flow=7d3cebd983430350ac771896feaad308"/>
+    <sys_hub_flow_logic_instance_v2 action="DELETE" query="flow=7d3cebd983430350ac771896feaad308^sys_idNOT IN32fe2b5183830350ac771896feaad366,467da39d83430350ac771896feaad3bb"/>
+    <sys_hub_flow_logic_instance_v2 action="DELETE">
+        <attributes/>
+        <block display_value="">76fe2b5183830350ac771896feaad365</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Remainder Book Last Date">7d3cebd983430350ac771896feaad308</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id>95554a55-1d7f-48b9-b1dc-ad4cbebcc56b</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-31 06:57:12</sys_created_on>
+        <sys_id>32fe2b5183830350ac771896feaad366</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-31 06:57:33</sys_updated_on>
+        <ui_id>bf44522a-afa3-42bc-b709-5ff81cf0a4c8</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VXW/aMBT9K5OfQ5QAYYW3iqrSpG2V1qovWxXd2A5Yc+zMH9AM8d93nQ9AK9Oo1se94eN7r885nAs7or2rvbMP+tpasVJk8fUpIkIFDD/viGBkQeaQlVmaZHQynk3GSTK+mqbFbFKkYzYBPp2RiCioOFZSrZhwQiuENiB9wHa7eZZlU8iyUcrel6PpVTEfFSmjI2BTWvCC0mxWxMLxKva5deC83e+/+SSZMKVdbrjzRnGGI5mwtYTm8e0n07WQzPDegBoM6nHckMXut6tLDZFQcImlyxNHzpjkmjpA1hmhVv35Y996P4DasEBlnESEPzuuGFJelCAtj0gFioHTpiELZzwChgO7U7I5VKyFcjiNhNpnK37yMClJQmXJURfl3e3hmPc2d3B5Aw6QiqdoVl9K11pQbjtHGC/BS7c8xbqCu7pV2bY4KOTQraWv1OfODHIYMHyriHiLJHgdlAbuvZDyfq23XwaWt0K1rvSXUlOQhxM49K7wLvDZES55hYPyCuoaHc1rozeibUYuVbySeIhLqbf4aNiCGGggHqOxEN8iftPCj2BEUPEJx2AzZsHmlhpRD9rax8k+IraxSwnWHjWiufkPHxh2intteWdPaGkHXePDG97L2Ef9/pUJlOmcpufjBpMz0cpb4LiEL5fn1aG/gMWL0L/rsvxnfq/Jf/qX/PfIRQuQZf/z/8/5DzQLsILm7T8Gjgs/QW+4AE8hwN2jB7OpsMjtIWAfhv+pcNFgogQ9hbbafA+qjtj+F4xezBrxBgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="DELETE">
+        <attributes/>
+        <block display_value="">427da39d83430350ac771896feaad3ba</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Remainder Book Last Date">7d3cebd983430350ac771896feaad308</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-31 06:50:35</sys_created_on>
+        <sys_id>467da39d83430350ac771896feaad3bb</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-31 06:57:12</sys_updated_on>
+        <ui_id>95554a55-1d7f-48b9-b1dc-ad4cbebcc56b</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/51Ty27bMBD8F55lQa/KtW9BggAB2gZwglyKwFiRlE2UIlmSsqMK+vcuLVoJcip6knb2NTNajUT33vTePesb58RBke3P14QIFTB8H4lgZEvyDWs3ebahZVGXRZYVX6u8qcsmL1gJnNUkIQo6jpXC885heALZh3gc26pq15CvV1CzdlVV1XrVlF/KVcHqfFPntFjnNN1xqi1z04StTDgjYXj5/wn0KCSzPIoxYJGb55Zsx0+pfxUnoeESSx+iuk9i/WBCaGcKEfgWe3YLio9AosgSwt88V4zj+hak4wnpQDHw2g5k622PgOXAHpUcloqjUB7HkVD75sQf3JhnWShsOQqifE4u4T76OMPtHXh4wtHU9zaW0qMWlLvZCsZb6KW//YjNBY/GC63mFg+NvHZr2Xfqx+wEWQZcPxsivUMS3AShgXrU0T4d9Xl3ZXkv1MWUmJSaglwi8N6KpveBz0i45B0O2ndgjFCHvbH6JC7NyKVLDxKDtJX6jEvDKadAA/EUfYX0HvG7C/wCVgQV33EMNk8JcYO7leDcuxY0cf+7D0xmZVHDfrYhtFArjL/BBSce6U6v4ern2YunVDik8Bywh+s/FRIDXpCgH6Gztr8C+Xds+gtwgm/dnQMAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=7d3cebd983430350ac771896feaad308^sys_idNOT IN8fcda3dd83430350ac771896feaad325,c3cda3dd83430350ac771896feaad326"/>
+    <sys_hub_pill_compound action="DELETE">
+        <attached_to>7d3cebd983430350ac771896feaad308</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{95554a55-1d7f-48b9-b1dc-ad4cbebcc56b.item.u_book_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-31 06:52:01</sys_created_on>
+        <sys_id>8fcda3dd83430350ac771896feaad325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-31 06:52:01</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>18977399-70de-455e-8ee7-e2e4c0949273</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="DELETE">
+        <attached_to>7d3cebd983430350ac771896feaad308</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{95554a55-1d7f-48b9-b1dc-ad4cbebcc56b.item.u_end_date}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-31 06:52:01</sys_created_on>
+        <sys_id>c3cda3dd83430350ac771896feaad326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-31 06:52:01</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>80b00b03-ba0a-463f-aa56-c3bbcf431523</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="DELETE" query="model=7d3cebd983430350ac771896feaad308"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_7d3cebd983430350ac771896feaad308"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_7d3cebd983430350ac771896feaad308"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=7d3cebd983430350ac771896feaad308"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=7d3cebd983430350ac771896feaad308"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Library Management">7859b305c3154f10a73937cc0501314b</application>
+        <file_path/>
+        <instance_id>56aa2e253b958b10986d048aa4e45a71</instance_id>
+        <instance_name>dev399443</instance_name>
+        <name>sys_hub_flow_7d3cebd983430350ac771896feaad308</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><attributes>labelCacheCleanUpExecuted=true</attributes><authored_on_release_version>28100</authored_on_release_version><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from/><copied_from_name/><description/><display_name_after_preview/><flow_priority>MEDIUM</flow_priority><generation_source/><internal_name>remainder_book_last_date</internal_name><label_cache>[{"name":"95554a55-1d7f-48b9-b1dc-ad4cbebcc56b.item.u_status","label":"2 - For Each➛Book Issue Record➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","parent_table_name":"u_book_issue","column_name":"u_status","choices":[{"label":null,"value":null,"order":0.0}],"usedInstances":{"bf44522a-afa3-42bc-b709-5ff81cf0a4c8":["condition"]},"attributes":null},{"name":"f44f7a17-a6df-4447-b353-2d61961c271c.Records","label":"1➛Book Issue Records","reference":"u_book_issue","reference_display":"Book Issue Records","type":"records","base_type":"records","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"95554a55-1d7f-48b9-b1dc-ad4cbebcc56b.item.u_email","label":"2 - For Each➛Book Issue Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"u_book_issue","column_name":"u_email","choices":[{"label":null,"value":null,"order":0.0}],"usedInstances":{"21d4d5ab-75d5-4fd6-99a2-8a45b7879158":["ah_to"],"17ddb571-a37a-4b58-acfd-33096604c802":["ah_to"]},"attributes":null},{"name":"95554a55-1d7f-48b9-b1dc-ad4cbebcc56b.item.u_end_date","label":"2 - For Each➛Book Issue Record➛End Date","reference":"","reference_display":"End Date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"u_book_issue","column_name":"u_end_date","choices":[{"label":null,"value":null,"order":0.0}],"usedInstances":{"0fe660f1-84d0-4524-82e1-69a2e349a1b3":["condition"]},"attributes":null},{"name":"95554a55-1d7f-48b9-b1dc-ad4cbebcc56b.item.u_book_name","label":"2 - For Each➛Book Issue Record➛Book Name","reference":"","reference_display":"Book Name","type":"string","base_type":"string","parent_table_name":"u_book_issue","column_name":"u_book_name","choices":[{"label":null,"value":null,"order":0.0}],"usedInstances":{"17ddb571-a37a-4b58-acfd-33096604c802":[null]},"attributes":null}]</label_cache><latest_snapshot/><master_snapshot/><master_snapshot_digest/><name>Remainder Book Last Date</name><natlang/><outputs/><pre_compiled>false</pre_compiled><remote_trigger_id/><run_as>user</run_as><run_with_roles/><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><substatus/><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-31 06:45:06</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7d3cebd983430350ac771896feaad308</sys_id><sys_mod_count>19</sys_mod_count><sys_name>Remainder Book Last Date</sys_name><sys_overrides/><sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b">7859b305c3154f10a73937cc0501314b</sys_package><sys_policy/><sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope><sys_update_name>sys_hub_flow_7d3cebd983430350ac771896feaad308</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-31 06:58:02</sys_updated_on><type>flow</type><updation_source/><version>2</version><version_record>c12f639183830350ac771896feaad354</version_record></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=7d3cebd983430350ac771896feaad308"/><sys_variable_value action="delete_multiple" query="document_key=7d3cebd983430350ac771896feaad308"/><sys_hub_flow_stage action="delete_multiple" query="flow=7d3cebd983430350ac771896feaad308"/><sys_flow_cat_variable_model action="delete_multiple" query="id=7d3cebd983430350ac771896feaad308^sys_idNOT INf13cebd983430350ac771896feaad30a"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>7d3cebd983430350ac771896feaad308</id><name>Remainder Book Last Date</name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-31 06:45:06</sys_created_on><sys_id>f13cebd983430350ac771896feaad30a</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-31 06:45:06</sys_updated_on></sys_flow_cat_variable_model><sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=f13cebd983430350ac771896feaad30a"/><sys_hub_flow_input action="delete_multiple" query="model=7d3cebd983430350ac771896feaad308"/><sys_hub_flow_output action="delete_multiple" query="model=7d3cebd983430350ac771896feaad308"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=7d3cebd983430350ac771896feaad308"/><sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=7d3cebd983430350ac771896feaad308^sys_idNOT IN86ac671d83430350ac771896feaad393"/><sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE"><comment/><display_text/><flow display_value="Remainder Book Last Date">7d3cebd983430350ac771896feaad308</flow><generation_source/><name>Daily</name><published_version/><remote_sys_id/><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-31 06:47:02</sys_created_on><sys_id>86ac671d83430350ac771896feaad393</sys_id><sys_mod_count>1</sys_mod_count><sys_scope/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-31 06:47:17</sys_updated_on><trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition><trigger_inputs>H4sIAAAAAAAA/21Sy27bMBD8lYJnVZDs9KVbkMBAgTQBaiOXIBBW5MomyldIyolq+N+7lGTFSSPwwtnd2ZkRHw5MQYOKVWwjNbKMSRPRG1Cb3iGhWyUF1nGsaTACovU9q6LvMGOtt3qD2imI1NyCCgRaL9CzqiyKjO1Bdbjuw09BXMRgQCfWiW+o0rX88a34XJR0PhVFNRyqChmIuL+fmgjhO6mER8Oqh8eMOfDEFtOuwyz7Rpo/HzXLJGAJ4gIFL/hyQV9RLL5flM3XZVMuxBIQv9DUuzTe6o0fZJKwm7dD5wHgS0QjUMzp/JehRxB3RvVzx468jBY0vAT5Fycqjy2SHz6FMV/rKagRbq8hwpqoeez8nJuVHMOYhMAWOhWvzrGx4c5Fac04EqFRp2mrOm1uxyTYTHD2X7pAItAlo0n65KNd7+zz75PKlTRDKlNRWQ5qvkGMXjZdTHoODBVqIqo1OCfNtnbe7uUwTFp0PsSft8o+09IgtyYHnoTnlCvkK8KvB/gevEwufhENDR8zFvpwpSCEVy8UYv3UJSWjs8lDPcZwnB/hSqKannDgXrp4SSv3pzd/fPwHlkXQT0gDAAA=</trigger_inputs><trigger_outputs/><trigger_type>daily</trigger_type><updation_source/></sys_hub_trigger_instance_v2><sys_hub_action_instance_v2 action="delete_multiple" query="flow=7d3cebd983430350ac771896feaad308^sys_idNOT IN2dccef1d83430350ac771896feaad38c,c01faf5183830350ac771896feaad34b"/><sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"><action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type><action_type_parent/><attributes/><comment/><compiled_snapshot/><display_text/><flow display_value="Remainder Book Last Date">7d3cebd983430350ac771896feaad308</flow><generation_source/><order>1</order><parent_ui_id/><sys_class_name>sys_hub_action_instance_v2</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-31 06:47:33</sys_created_on><sys_id>2dccef1d83430350ac771896feaad38c</sys_id><sys_mod_count>3</sys_mod_count><sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-31 06:53:21</sys_updated_on><ui_id>f44f7a17-a6df-4447-b353-2d61961c271c</ui_id><updation_source/><values>H4sIAAAAAAAA/+VWXU/bMBT9K1WeNimqUloK69O2IiQkoBIgXhCynMRpPdw4s52Wgvjvu/5ImqWhtFMmddpTlHtt3+Nzz7H98OrR2Bt5QTIIAtw7Pj0Jgn4/CIbDfoR7YdgfRmEQHn/xfC/FcwIjJRcKqVVGILTALC9jWEYQiqnMGF7duwzuKN55gXg0oywWJPVGD4++l2EBqykivNFrLbUrHIZDwmDoLdTu3Fk8DRDNZwQ1OI2K/0s3dVwEuYg1lL7vkWdF0pgAhgQzSXxvjtMYKy5WZUQQHE9Stg7MaKpgNU8Pfpb0Ber1j/S4hMCuImJz5S9yFNlwcoYVvlUij1Qu3FALVgIfr+U2SyIbOHfwgzd/Pf5Fj8f18TGpTui9Ad8xSXDO1PjPavb2rXmka9oNTjJFOXTd6+u+4JAV2+csn6fXtpdeifC+QWw2c/aO5nIJZJNMN1R3yLUruZ3x5U3RjXOaGlwuyXiEWfmHlRI0zJXm5dVLYpRQwmJEU0ZTXQnapuVDGJlDBTTHWUbTKcoEX1CzKuxl3p0y+OkmjC81F3SadnGkd94FYeHuOcTPTPgeC6pZuIJlYLKvC85gqquHZCRoptCSxlOi1tWLUTFXS8yemvJOcaholNme9+Z7ciXHDEu5Jhtkin7mmgNLvWMPmUaZKQbFN9jBgjiitAaMbaOTrbY9rlnUNrqil83zY++TYwcIBQsTrchOuHoPlTs6bM/NiN+Pj3Od6FzbRCHv1o6Q06CdI6TJ4psW3MuBm9bSUvt3nLW/8C03H6h/sPXSGvbWOoMmI0EkUCor6u8FQbDpgJ5vw/vZYAcshQ2u8HPnpgTTiNA5AURKpuZkqtrgoow6Dwxa88DgcD1QNKvxBip61vIFdChu+MgIp9tfb8FaZhFPY6oxVn2QIyiGADSZXN/xOReCL7/+wAtsa46mshuSKU1T4GCSFCM+fa6NgUWq2U1n/bU6+1l1B7YKq46rdDVRWLx267HLpgWKJ1yLdg0O17CtX1qH4sad7qbtIhuEaz3Z5apuDDl/QlRKcyPXPPQdcp0Ll2tT9wZSofs7h6kG0and/DY90My02gMt+D8faId59QAgykAhyLZQ8lwYKhcoYrk0CYFTaddq8aJ6/AVEJfBO9xAAAA==</values></sys_hub_action_instance_v2><sys_hub_alias_mapping action="delete_multiple" query="source_id=2dccef1d83430350ac771896feaad38c"/><sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"><action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type><action_type_parent/><attributes/><comment/><compiled_snapshot/><display_text/><flow display_value="Remainder Book Last Date">7d3cebd983430350ac771896feaad308</flow><generation_source/><order>4</order><parent_ui_id>bf44522a-afa3-42bc-b709-5ff81cf0a4c8</parent_ui_id><sys_class_name>sys_hub_action_instance_v2</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-31 06:57:33</sys_created_on><sys_id>c01faf5183830350ac771896feaad34b</sys_id><sys_mod_count>2</sys_mod_count><sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-31 06:57:52</sys_updated_on><ui_id>21d4d5ab-75d5-4fd6-99a2-8a45b7879158</ui_id><updation_source/><values>H4sIAAAAAAAA/+1Y227bOBD9FYHPtitfJNt568YIGiBtgcboPjSFQJFUzJYStRIV12vk33coUpZ8gWOvHTQF/GYOL3NmeI44429LxCm6Qt545PphNMBDt9/ru+6oNx6H/XHkjoZjt0sxaqEExwxW4lmgJAyfsCj0eLkce543wJ7X7tJh1B6MwnE77FLSxnRAQhYS4vlhhysWd4qAxZiL52cHDqA8TwVefD31HDLjgmYsQVffvrdQijPAqViGrpYbU4cGKnDIBCydyu2o1SLVw1xlPHm04zu7/r4yyoxq//0WYr8USygDxxEWOWuhGCcUK5kt0JXKCjBkDNPPiVg0VvzK+b/gZOS6rp6PGERAtFfUGAY2fcYcTbDC4L8gqsjsUjKTnLDcxE5ZhAuhrps2s+BzqrhMzBaFQ1HtlqKIk08merQ6oLotsBQ5gGCpji9RK/jR/UzOv1Qob3hSpsJOCkmwWI2wgoSFhdJ4logJFsNBQYzTFNIYpJl84uVmwBJ3HgUMOpGQc3Ca88ekg4kG3oF04s4N2Cel+SvOuI7iIxwDmzVwwWNeEgLplKPnFsoX+bXAeV6HB3kN/ik0OBOsDSswmdFbSMZT9R58PjEbwXPLisf1/TD0Q2/Yrzk1JhEdhpGPh6Rf02iOAUiMs5+GwA0ZdbcVUaI9lt8HYKn4fZsQUVDm/F2B2ofTEj+UUjCcbDB/Ckjf3eic1Ozv7We/tWzRf8Y1mZBhpaOkA/coFg52VpC0Uc2YUyKDX1g5PHdyuK2OM5UOt1E1drSchSycuMgVLFMwo3D2CD8yRgBsBzVEN3i7krN0sNbJTq78EZo8vwC7dN9Hnflr33F4SBq625bd0ZI7wHslub+ur3dgOeZR8f6frC6vyh/3quC9tIp660SSdNFg9UPhun2SOjqMtuLJIiYsk1KFkKuf5SR9QA9mGaMF0wuZ2fQuNdZtYdhDX9h0nHYOCHKlHRPiVsxWPTMViw3tfJh+vKuVMzxROb7n9f2LdE6WTjqnPZrJNLWxvZJ8BnuZRWhNJVMGnPdNOMD7qs0wxciXCsUmKstvKklR3genGzSf2BnndlKz3T2p/Hqf55JwkHfeKLXmXM2geNpRNfV767qAGoyXJNytj9t6+g3oxPRhR8gkumc4I7MbzoS+6qSIw5LY6/IhUCdnwQZpbZn2VuqqMm1BSbiXKqz9bfOg5m3jzPNWWS8jqBWl2bAbkVXTlu2uudf5ZCaslrpHaskwykppCvpZ6zccZeE1arLLs3Lys8LzwBDYxlY6f4V3xdtf7ZO1EiUvwh+MqIYSqrppWxGNmSP/0noZUaWM+xWeXRiP6UP8y59bv5305yc33fuRZe4acc7dRx/gvOLxRht9dBc9uHTRv5++r9pFf/8PkeyHfNoYAAA=</values></sys_hub_action_instance_v2><sys_hub_alias_mapping action="delete_multiple" query="source_id=c01faf5183830350ac771896feaad34b"/><sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=7d3cebd983430350ac771896feaad308"/><sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=7d3cebd983430350ac771896feaad308^sys_idNOT IN32fe2b5183830350ac771896feaad366,467da39d83430350ac771896feaad3bb"/><sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE"><attributes/><block display_value="">76fe2b5183830350ac771896feaad365</block><comment/><connected_to/><decision_table/><display_text/><flow display_value="Remainder Book Last Date">7d3cebd983430350ac771896feaad308</flow><flow_variables_assigned/><generation_source/><logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition><order>3</order><outputs_assigned/><parent_ui_id>95554a55-1d7f-48b9-b1dc-ad4cbebcc56b</parent_ui_id><sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-31 06:57:12</sys_created_on><sys_id>32fe2b5183830350ac771896feaad366</sys_id><sys_mod_count>3</sys_mod_count><sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-31 06:57:33</sys_updated_on><ui_id>bf44522a-afa3-42bc-b709-5ff81cf0a4c8</ui_id><updation_source/><values>H4sIAAAAAAAA/+1VXW/aMBT9K5OfQ5QAYYW3iqrSpG2V1qovWxXd2A5Yc+zMH9AM8d93nQ9AK9Oo1se94eN7r885nAs7or2rvbMP+tpasVJk8fUpIkIFDD/viGBkQeaQlVmaZHQynk3GSTK+mqbFbFKkYzYBPp2RiCioOFZSrZhwQiuENiB9wHa7eZZlU8iyUcrel6PpVTEfFSmjI2BTWvCC0mxWxMLxKva5deC83e+/+SSZMKVdbrjzRnGGI5mwtYTm8e0n07WQzPDegBoM6nHckMXut6tLDZFQcImlyxNHzpjkmjpA1hmhVv35Y996P4DasEBlnESEPzuuGFJelCAtj0gFioHTpiELZzwChgO7U7I5VKyFcjiNhNpnK37yMClJQmXJURfl3e3hmPc2d3B5Aw6QiqdoVl9K11pQbjtHGC/BS7c8xbqCu7pV2bY4KOTQraWv1OfODHIYMHyriHiLJHgdlAbuvZDyfq23XwaWt0K1rvSXUlOQhxM49K7wLvDZES55hYPyCuoaHc1rozeibUYuVbySeIhLqbf4aNiCGGggHqOxEN8iftPCj2BEUPEJx2AzZsHmlhpRD9rax8k+IraxSwnWHjWiufkPHxh2intteWdPaGkHXePDG97L2Ef9/pUJlOmcpufjBpMz0cpb4LiEL5fn1aG/gMWL0L/rsvxnfq/Jf/qX/PfIRQuQZf/z/8/5DzQLsILm7T8Gjgs/QW+4AE8hwN2jB7OpsMjtIWAfhv+pcNFgogQ9hbbafA+qjtj+F4xezBrxBgAA</values><workflow_reference/></sys_hub_flow_logic_instance_v2><sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE"><attributes/><block display_value="">427da39d83430350ac771896feaad3ba</block><comment/><connected_to/><decision_table/><display_text/><flow display_value="Remainder Book Last Date">7d3cebd983430350ac771896feaad308</flow><flow_variables_assigned/><generation_source/><logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition><order>2</order><outputs_assigned/><parent_ui_id/><sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-31 06:50:35</sys_created_on><sys_id>467da39d83430350ac771896feaad3bb</sys_id><sys_mod_count>7</sys_mod_count><sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-31 06:57:12</sys_updated_on><ui_id>95554a55-1d7f-48b9-b1dc-ad4cbebcc56b</ui_id><updation_source/><values>H4sIAAAAAAAA/51Ty27bMBD8F55lQa/KtW9BggAB2gZwglyKwFiRlE2UIlmSsqMK+vcuLVoJcip6knb2NTNajUT33vTePesb58RBke3P14QIFTB8H4lgZEvyDWs3ebahZVGXRZYVX6u8qcsmL1gJnNUkIQo6jpXC885heALZh3gc26pq15CvV1CzdlVV1XrVlF/KVcHqfFPntFjnNN1xqi1z04StTDgjYXj5/wn0KCSzPIoxYJGb55Zsx0+pfxUnoeESSx+iuk9i/WBCaGcKEfgWe3YLio9AosgSwt88V4zj+hak4wnpQDHw2g5k622PgOXAHpUcloqjUB7HkVD75sQf3JhnWShsOQqifE4u4T76OMPtHXh4wtHU9zaW0qMWlLvZCsZb6KW//YjNBY/GC63mFg+NvHZr2Xfqx+wEWQZcPxsivUMS3AShgXrU0T4d9Xl3ZXkv1MWUmJSaglwi8N6KpveBz0i45B0O2ndgjFCHvbH6JC7NyKVLDxKDtJX6jEvDKadAA/EUfYX0HvG7C/wCVgQV33EMNk8JcYO7leDcuxY0cf+7D0xmZVHDfrYhtFArjL/BBSce6U6v4ern2YunVDik8Bywh+s/FRIDXpCgH6Gztr8C+Xds+gtwgm/dnQMAAA==</values><workflow_reference/></sys_hub_flow_logic_instance_v2><sys_hub_pill_compound action="delete_multiple" query="attached_to=7d3cebd983430350ac771896feaad308^sys_idNOT IN8fcda3dd83430350ac771896feaad325,c3cda3dd83430350ac771896feaad326"/><sys_hub_pill_compound action="INSERT_OR_UPDATE"><attached_to>7d3cebd983430350ac771896feaad308</attached_to><extra_info/><order>0</order><prescription>{{95554a55-1d7f-48b9-b1dc-ad4cbebcc56b.item.u_book_name}}</prescription><source_ui_id/><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-31 06:52:01</sys_created_on><sys_id>8fcda3dd83430350ac771896feaad325</sys_id><sys_mod_count>0</sys_mod_count><sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-31 06:52:01</sys_updated_on><transform_compositions>[]</transform_compositions><transform_definition_id/><ui_id>18977399-70de-455e-8ee7-e2e4c0949273</ui_id></sys_hub_pill_compound><sys_hub_pill_compound action="INSERT_OR_UPDATE"><attached_to>7d3cebd983430350ac771896feaad308</attached_to><extra_info/><order>0</order><prescription>{{95554a55-1d7f-48b9-b1dc-ad4cbebcc56b.item.u_end_date}}</prescription><source_ui_id/><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-31 06:52:01</sys_created_on><sys_id>c3cda3dd83430350ac771896feaad326</sys_id><sys_mod_count>0</sys_mod_count><sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-31 06:52:01</sys_updated_on><transform_compositions>[]</transform_compositions><transform_definition_id/><ui_id>80b00b03-ba0a-463f-aa56-c3bbcf431523</ui_id></sys_hub_pill_compound><sys_hub_flow_variable action="delete_multiple" query="model=7d3cebd983430350ac771896feaad308"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_7d3cebd983430350ac771896feaad308"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_7d3cebd983430350ac771896feaad308"/><sys_flow_trigger_plan action="delete_multiple" query="plan_id=7d3cebd983430350ac771896feaad308"/><sys_flow_subflow_plan action="delete_multiple" query="plan_id=7d3cebd983430350ac771896feaad308"/></record_update>]]></payload>
+        <payload_hash>23353486</payload_hash>
+        <record_name>Remainder Book Last Date</record_name>
+        <reverted_from/>
+        <source>5ef8e38483cf4710ac771896feaad3d9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-31 06:58:02</sys_created_on>
+        <sys_id>972fa39183830350ac771896feaad3fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a0569c5c470000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-31 06:58:02</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>572fa39195830350db5e1dd3b427fefd</update_guid>
+        <update_guid_history>572fa39195830350db5e1dd3b427fefd:23353486,9c1faf516d83035050575a86ec27e393:1172620950,ed0f2f51c08303504179ba0d4443ad70:996620982,bfee6b51a0830350365fdc2befa44377:-86489361,c18eeb111783035035f63370156c876e:-858674520,592eefdd2f430350e88bc84fd8b9c835:-522318264,21dde3ddc2430350b0a54808c3c320c8:360450984,e29deb9dff430350927d0a41aee18ec3:-1480197682,6b8d6b9d8943035002bd77a3d22860c5:2006030110,248d2b9dda4303509ec837ce35c52815:-1015599477,156de39d51430350a52509e8bb01afc2:-318966727,84dc635d57430350a2da9a8992618d39:-154822608,44ccaf1d3b4303500425bab7fc9aeaa5:1559565431,64bc2f1db343035006e8423ef2397582:-1701961062,3d3c2fd9da4303503fc650f9c18cf3e9:-310510890</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-31 07:01:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>91d98885c3034016a5489077d1b44361</sys_id>
+        <sys_metadata>7d3cebd983430350ac771896feaad308</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Remainder Book Last Date</sys_name>
+        <sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b">7859b305c3154f10a73937cc0501314b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
+        <sys_scope_delete display_value="">3a6fb8a3e030493ea05c1e70fa145c24</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_7d3cebd983430350ac771896feaad308</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_7d3cebd983430350ac771896feaad308">972fa39183830350ac771896feaad3fe</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-31 07:01:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

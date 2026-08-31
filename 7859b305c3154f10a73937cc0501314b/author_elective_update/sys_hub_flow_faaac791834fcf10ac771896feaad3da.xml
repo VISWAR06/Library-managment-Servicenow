@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=144000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>set_avail_count</internal_name>
+        <label_cache>[{"name":"Created_1.current.u_total_count","label":"Trigger - Record Created➛Books Record➛Total Count","reference":"","reference_display":"Total Count","type":"integer","base_type":"integer","parent_table_name":"u_books","column_name":"u_total_count","usedInstances":{"700c3cfc-8931-40a0-bf34-902e982b794a":["u_availabe_count"]}}]</label_cache>
+        <master_snapshot>8e3bc315834fcf10ac771896feaad373</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Set Avail Count</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>5a3bc315834fcf10ac771896feaad3d9</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-31 04:18:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>faaac791834fcf10ac771896feaad3da</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Set Avail Count</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b">7859b305c3154f10a73937cc0501314b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
+        <sys_update_name>sys_hub_flow_faaac791834fcf10ac771896feaad3da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-31 04:27:41</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record>36bc0bd5834fcf10ac771896feaad3c4</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=faaac791834fcf10ac771896feaad3da"/>
+    <sys_variable_value action="DELETE" query="document_key=faaac791834fcf10ac771896feaad3da"/>
+    <sys_flow_record_trigger action="DELETE">
+        <active>true</active>
+        <condition table="u_books">u_total_countANYTHING<item endquery="false" field="u_total_count" goto="false" newquery="false" operator="ANYTHING" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-31 04:20:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5a3bc315834fcf10ac771896feaad3d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-31 04:20:58</sys_updated_on>
+        <table>u_books</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="DELETE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>faaac791834fcf10ac771896feaad3da</identifier>
+        <identifier_type>flow</identifier_type>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-31 04:20:58</sys_created_on>
+        <sys_id>9e3bc315834fcf10ac771896feaad3da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-31 04:20:58</sys_updated_on>
+        <trigger display_value="">5a3bc315834fcf10ac771896feaad3d9</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="DELETE" query="identifier=faaac791834fcf10ac771896feaad3da^sys_idNOT IN9e3bc315834fcf10ac771896feaad3da"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=faaac791834fcf10ac771896feaad3da"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=faaac791834fcf10ac771896feaad3da^sys_idNOT INf2aac791834fcf10ac771896feaad3df"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>faaac791834fcf10ac771896feaad3da</id>
+        <name>Set Avail Count</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-31 04:18:32</sys_created_on>
+        <sys_id>f2aac791834fcf10ac771896feaad3df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-31 04:18:32</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=f2aac791834fcf10ac771896feaad3df"/>
+    <sys_hub_flow_input action="DELETE" query="model=faaac791834fcf10ac771896feaad3da^sys_idNOT IN2fba43d1834fcf10ac771896feaad3a1,97ba43d1834fcf10ac771896feaad369"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Set Avail Count">faaac791834fcf10ac771896feaad3da</model>
+        <model_id>faaac791834fcf10ac771896feaad3da</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_faaac791834fcf10ac771896feaad3da</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-31 04:18:52</sys_created_on>
+        <sys_id>2fba43d1834fcf10ac771896feaad3a1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-31 04:20:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=2fba43d1834fcf10ac771896feaad3a1"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Set Avail Count">faaac791834fcf10ac771896feaad3da</model>
+        <model_id>faaac791834fcf10ac771896feaad3da</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_faaac791834fcf10ac771896feaad3da</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-31 04:18:51</sys_created_on>
+        <sys_id>97ba43d1834fcf10ac771896feaad369</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-31 04:20:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=97ba43d1834fcf10ac771896feaad369"/>
+    <sys_hub_flow_output action="DELETE" query="model=faaac791834fcf10ac771896feaad3da"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=faaac791834fcf10ac771896feaad3da"/>
+    <sys_hub_trigger_instance_v2 action="DELETE" query="flow=faaac791834fcf10ac771896feaad3da"/>
+    <sys_hub_action_instance_v2 action="DELETE" query="flow=faaac791834fcf10ac771896feaad3da"/>
+    <sys_hub_sub_flow_instance_v2 action="DELETE" query="flow=faaac791834fcf10ac771896feaad3da"/>
+    <sys_hub_flow_logic_instance_v2 action="DELETE" query="flow=faaac791834fcf10ac771896feaad3da"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=faaac791834fcf10ac771896feaad3da"/>
+    <sys_hub_flow_variable action="DELETE" query="model=faaac791834fcf10ac771896feaad3da"/>
+    <sys_documentation action="DELETE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_faaac791834fcf10ac771896feaad3da</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-31 04:18:52</sys_created_on>
+        <sys_id>abba43d1834fcf10ac771896feaad3a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b">7859b305c3154f10a73937cc0501314b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-31 04:18:52</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_faaac791834fcf10ac771896feaad3da</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-31 04:18:52</sys_created_on>
+        <sys_id>ebba43d1834fcf10ac771896feaad39c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b">7859b305c3154f10a73937cc0501314b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-31 04:18:52</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_faaac791834fcf10ac771896feaad3da"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_faaac791834fcf10ac771896feaad3da"/>
+    <sys_hub_flow_snapshot action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>set_avail_count</internal_name>
+        <label_cache>[{"name":"Created_1.current.u_total_count","label":"Trigger - Record Created➛Books Record➛Total Count","reference":"","reference_display":"Total Count","type":"integer","base_type":"integer","parent_table_name":"u_books","column_name":"u_total_count","usedInstances":{"700c3cfc-8931-40a0-bf34-902e982b794a":["u_availabe_count"]}}]</label_cache>
+        <master>true</master>
+        <name>Set Avail Count</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Set Avail Count">faaac791834fcf10ac771896feaad3da</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-31 04:20:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8e3bc315834fcf10ac771896feaad373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-31 04:20:57</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="DELETE" query="documentkey=8e3bc315834fcf10ac771896feaad373"/>
+    <sys_variable_value action="DELETE" query="document_key=8e3bc315834fcf10ac771896feaad373"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=8e3bc315834fcf10ac771896feaad373"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=8e3bc315834fcf10ac771896feaad373^sys_idNOT IN0e3bc315834fcf10ac771896feaad375"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>8e3bc315834fcf10ac771896feaad373</id>
+        <name>Set Avail Count</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-31 04:20:57</sys_created_on>
+        <sys_id>0e3bc315834fcf10ac771896feaad375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-31 04:20:57</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=0e3bc315834fcf10ac771896feaad375"/>
+    <sys_hub_flow_input action="DELETE" query="model=8e3bc315834fcf10ac771896feaad373^sys_idNOT IN063bc315834fcf10ac771896feaad377,8e3bc315834fcf10ac771896feaad3ac"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Set Avail Count">8e3bc315834fcf10ac771896feaad373</model>
+        <model_id>8e3bc315834fcf10ac771896feaad373</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_8e3bc315834fcf10ac771896feaad373</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-31 04:20:57</sys_created_on>
+        <sys_id>063bc315834fcf10ac771896feaad377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-31 04:20:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=063bc315834fcf10ac771896feaad377"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Set Avail Count">8e3bc315834fcf10ac771896feaad373</model>
+        <model_id>8e3bc315834fcf10ac771896feaad373</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_8e3bc315834fcf10ac771896feaad373</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-31 04:20:57</sys_created_on>
+        <sys_id>8e3bc315834fcf10ac771896feaad3ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-31 04:20:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=8e3bc315834fcf10ac771896feaad3ac"/>
+    <sys_hub_flow_output action="DELETE" query="model=8e3bc315834fcf10ac771896feaad373"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=8e3bc315834fcf10ac771896feaad373"/>
+    <sys_hub_trigger_instance_v2 action="DELETE" query="flow=8e3bc315834fcf10ac771896feaad373^sys_idNOT IN123bc315834fcf10ac771896feaad3c2"/>
+    <sys_hub_trigger_instance_v2 action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Set Avail Count">8e3bc315834fcf10ac771896feaad373</flow>
+        <generation_source/>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-31 04:20:57</sys_created_on>
+        <sys_id>123bc315834fcf10ac771896feaad3c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-31 04:20:57</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VYa0/jOBT9K1E+7UislEdLKd+YwuwgsSCVzq5GCEVObLfRuHY3ccJ0R/z3vc6raR6lj5QtX5Biu77nHp97rs3TL50hlzD9Up8glxH9TPe5JAFHbLJcEBiWatjhaK7m5ohjJEWw1C9lEJEznQZiPiHzBUMSFlPEQhgUASaBfmme6TFiEXlchrcYdoLfJ9tke+rZNHxHjivEjxBGsB/CXsu/sonP2bA38xkOCNcvn57P9AUKYB+pYvyqTEkA7axlpN2n0H0FwaMeGlrE8GzTtizDsC56pntuu6aFbUQMA9ZV6ahAlg2srPIlPyXhmOCCihphAUH4gbNlsWIGfKfkzNHP0P8Xdr8w1DpKICuPpHPFp5MxlA57M+F75GEhfcHTkRRnOilYNOf3KX7FLaEoYjLnFkaiEPYjCwVZgcgQ0ceZeBnnAb/4PMkum2TCQ6z4QlIGvhtJEqqjoD6DQ3FSbkIRBQn68c3oYXzt/H01GX29GTvjm8fJ+HY0ubnWX5O8nH8itWOKMMPipOm8FoL44hOGE6VknIde4C/klSf9OBfe69lKzCPBsZ+wUhO0l0+F64LOs9+kaMNo1bRXirjStRQSMccTEZdX998nX2/v/9hbzqMy8ETO5+cIYYJa5OzSkpzLhDQglg3clJPeJOxsZBtl9wzjf9J2Zlf7SnsuMGHXq+10mJxOQew+X0RSsfWCuAzhvB2EsVPiUS0FTG9pPc2tLvi3pR5EHLZwihOqCz4hsmD0zg8hgSco15ytZEuYp3fZluOIawKOEv5oXhQAWVLLDZDeztE045g+EkY8WZIF/RaWv/70w9Dn0xLqImjCSi1mEQ7kpeUppbHDA4M/d1ntddLjCpmVTrZ/1eenl1S8aVLqEmoZA1XvpmG71DQGRh9RbBuGZ5Uqvg6xFbusCOUolb9b3YeJRNkWgqwSn4E3yjWylbjidWXmJCjhZPYy6gaa2RE0S0Gr2KS9k08WYk2Hr9c1uym1jq8OCMcIfoG3tUu1YAtfpEy8gEXv4Yku8n5MA+jbuGpSak/N59pqhfZbxt+nDv2RioBsBrC+4pSccUV7LlzEl0fzRJua7pD0iAFWaIMLuv3h0PWQRengfEAss+KJK3CNiD+EF76hwbhJxG2+2CinuEmFOzjiAQBr7rgzwMN9MZNroyumcx/D/15mhDsANXCYcriaDU6Zj0k+160H1ELHq6rvygfusqRUdHox9PrmYOAN4B0ELkB7xEVmz+qj4eDcvuhXXKAGbxN02cDWu7yOwmWYAGlxiG/p1Gn9F+CYUg6JlKpx7d7POdx4k9+gNEipp6pj0RKjEYF2L/jvt6t12iOBVpk8kbtq7NugUAerHReGK+SsdrOA0J9hfC20upG2sHJyT7KKSOL1XI/0JCO9i/6Q2s3GQ4dNxrOC2A7+5C8iW9ZN3FqBTTeSbcsgbqym1ivEHsKuiKd8t9hw+emKFLNzUqzjkWIffOHKK7T1HboP2A/U2JLbxiHdTcUkjqBlS78WGkxoEETzqZb9x5JgzV1qckaAUgY3awioqeiHenm5t9ShFAp+XyDpXb3W42BYy65Vp9e+KlJ4jxc0wQPU79std+dh9QXdBPONLE6+me1cK3FT6W3saLvtW92zsaeVhLyuky27VadZN7esw7JubFpvZX14O9r0/m9AcaKN5vk/K6K0xN4fAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="DELETE" query="flow=8e3bc315834fcf10ac771896feaad373^sys_idNOT IN163bc315834fcf10ac771896feaad3bf"/>
+    <sys_hub_action_instance_v2 action="DELETE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Set Avail Count">8e3bc315834fcf10ac771896feaad373</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-31 04:20:57</sys_created_on>
+        <sys_id>163bc315834fcf10ac771896feaad3bf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-31 04:20:57</sys_updated_on>
+        <ui_id>700c3cfc-8931-40a0-bf34-902e982b794a</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9VUy27bMBD8lYBnQZDs1Eh8axz41CZAU/iSBsJKXNlEKVLlw4lr+N+7FGnHTWO0RXuJbzv74Mxo1/dbJjibskmJxbvLctKMy/F4VBSji/OynozrcsTHgHjOMqagQ6p0UEushiBja5A+gL6qtf5qCeHC9hI2i5S4SnCzEpIbVGx6/5CxHgz1OzRsun2R+lM2EmqUVPo50DnBzm36V7EPx71nNzGhDQ98iozhk0PFkYi0IC1mrAPFwWmzYVNnPAEGgd8quTlUrIRyNJCF2icrvtOzF0Woa5GUNRhzh7BKLkW4vQYHdzS5cd6k0malRYM2esKxBS/d7BiLBbe9E1rFlkFm6tbSd+omWsIOA/YfhRBviQT2QWdgnmS0dyv9+GnPci7UYElKSt2APETgnBG1d4HPlqHEjgZVHfS9UMuqN3othmbi0uVLSUHeSv1Ij1qxVDk0gXhOtkI+J/x6gBdgRFDxkcZQ8y5jdmNnEqx91kImVt98YBKVJQ1VtCG0NEb07j09sMZEd5ft15xjcXlyscr6eZGGzbY/rTisQYS1qxrtlfvii2LMt9sZLYNDXpV54w355nJfOe1AxrLd7tej+JdRf3lIv9e7P6S5QMntKwbsrwg70uCwioa8uKSUPFukZLqm8n9dUzkpht8buqko7s2f1NG/54njevgBujE5yEUGAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=163bc315834fcf10ac771896feaad3bf"/>
+    <sys_hub_sub_flow_instance_v2 action="DELETE" query="flow=8e3bc315834fcf10ac771896feaad373"/>
+    <sys_hub_flow_logic_instance_v2 action="DELETE" query="flow=8e3bc315834fcf10ac771896feaad373"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=8e3bc315834fcf10ac771896feaad373"/>
+    <sys_hub_flow_variable action="DELETE" query="model=8e3bc315834fcf10ac771896feaad373"/>
+    <sys_documentation action="DELETE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8e3bc315834fcf10ac771896feaad373</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-31 04:20:57</sys_created_on>
+        <sys_id>0a3bc315834fcf10ac771896feaad39c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b">7859b305c3154f10a73937cc0501314b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-31 04:20:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8e3bc315834fcf10ac771896feaad373</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-31 04:20:57</sys_created_on>
+        <sys_id>9e3bc315834fcf10ac771896feaad3b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b">7859b305c3154f10a73937cc0501314b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-31 04:20:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_8e3bc315834fcf10ac771896feaad373"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_8e3bc315834fcf10ac771896feaad373"/>
+    <sys_hub_flow action="DELETE">
+        <sys_id>faaac791834fcf10ac771896feaad3da</sys_id>
+        <latest_snapshot>8e3bc315834fcf10ac771896feaad373</latest_snapshot>
+        <compiler_build>glide-zurich-07-01-2025__patch10-05-22-2026_06-12-2026_2311.zip</compiler_build>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=faaac791834fcf10ac771896feaad3da^sys_idNOT IN9e3bc315834fcf10ac771896feaad3db"/>
+    <sys_flow_trigger_plan action="DELETE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"9e3bc315834fcf10ac771896feaad3db","name":"plan","plan_signature":null}}</plan>
+        <plan_id>faaac791834fcf10ac771896feaad3da</plan_id>
+        <snapshot>f25b4b15834fcf10ac771896feaad356</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-31 04:20:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9e3bc315834fcf10ac771896feaad3db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-31 04:20:58</sys_updated_on>
+        <trigger display_value="">5a3bc315834fcf10ac771896feaad3d9</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=faaac791834fcf10ac771896feaad3da"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Library Management">7859b305c3154f10a73937cc0501314b</application>
+        <file_path/>
+        <instance_id>56aa2e253b958b10986d048aa4e45a71</instance_id>
+        <instance_name>dev399443</instance_name>
+        <name>sys_hub_flow_faaac791834fcf10ac771896feaad3da</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;false&lt;/active&gt;&lt;annotation/&gt;&lt;attributes&gt;browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=144000,viewActivatedIn=naturalLanguage&lt;/attributes&gt;&lt;authored_on_release_version&gt;28100&lt;/authored_on_release_version&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;display_name_after_preview/&gt;&lt;flow_priority&gt;MEDIUM&lt;/flow_priority&gt;&lt;generation_source/&gt;&lt;internal_name&gt;set_avail_count&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"Created_1.current.u_total_count","label":"Trigger - Record Created➛Books Record➛Total Count","reference":"","reference_display":"Total Count","type":"integer","base_type":"integer","parent_table_name":"u_books","column_name":"u_total_count","usedInstances":{"700c3cfc-8931-40a0-bf34-902e982b794a":["u_availabe_count"]}}]&lt;/label_cache&gt;&lt;master_snapshot&gt;8e3bc315834fcf10ac771896feaad373&lt;/master_snapshot&gt;&lt;master_snapshot_digest/&gt;&lt;name&gt;Set Avail Count&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;pre_compiled&gt;false&lt;/pre_compiled&gt;&lt;remote_trigger_id&gt;5a3bc315834fcf10ac771896feaad3d9&lt;/remote_trigger_id&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;draft&lt;/status&gt;&lt;substatus/&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-08-31 04:18:32&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;faaac791834fcf10ac771896feaad3da&lt;/sys_id&gt;&lt;sys_mod_count&gt;15&lt;/sys_mod_count&gt;&lt;sys_name&gt;Set Avail Count&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b"&gt;7859b305c3154f10a73937cc0501314b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Library Management"&gt;7859b305c3154f10a73937cc0501314b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_faaac791834fcf10ac771896feaad3da&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-08-31 04:27:41&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;updation_source/&gt;&lt;version&gt;2&lt;/version&gt;&lt;version_record&gt;36bc0bd5834fcf10ac771896feaad3c4&lt;/version_record&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=faaac791834fcf10ac771896feaad3da"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=faaac791834fcf10ac771896feaad3da"/&gt;&lt;sys_flow_record_trigger action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;condition table="u_books"&gt;u_total_countANYTHING&lt;item endquery="false" field="u_total_count" goto="false" newquery="false" operator="ANYTHING" or="false" value=""/&gt;&lt;/condition&gt;&lt;name/&gt;&lt;on_delete&gt;false&lt;/on_delete&gt;&lt;on_insert&gt;true&lt;/on_insert&gt;&lt;on_update&gt;false&lt;/on_update&gt;&lt;published_version/&gt;&lt;run_flow_in&gt;background&lt;/run_flow_in&gt;&lt;run_on_extended&gt;false&lt;/run_on_extended&gt;&lt;run_when_setting&gt;both&lt;/run_when_setting&gt;&lt;run_when_user_list/&gt;&lt;run_when_user_setting&gt;any&lt;/run_when_user_setting&gt;&lt;sys_class_name&gt;sys_flow_record_trigger&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-08-31 04:20:58&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;5a3bc315834fcf10ac771896feaad3d9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_overrides/&gt;&lt;sys_scope display_value="Library Management"&gt;7859b305c3154f10a73937cc0501314b&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-08-31 04:20:58&lt;/sys_updated_on&gt;&lt;table&gt;u_books&lt;/table&gt;&lt;trigger_definition/&gt;&lt;/sys_flow_record_trigger&gt;&lt;sys_trigger_runner_mapping action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;data&gt;{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}&lt;/data&gt;&lt;identifier&gt;faaac791834fcf10ac771896feaad3da&lt;/identifier&gt;&lt;identifier_type&gt;flow&lt;/identifier_type&gt;&lt;runner&gt;FDTriggerRunner&lt;/runner&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-08-31 04:20:58&lt;/sys_created_on&gt;&lt;sys_id&gt;9e3bc315834fcf10ac771896feaad3da&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-08-31 04:20:58&lt;/sys_updated_on&gt;&lt;trigger display_value=""&gt;5a3bc315834fcf10ac771896feaad3d9&lt;/trigger&gt;&lt;/sys_trigger_runner_mapping&gt;&lt;sys_trigger_runner_mapping action="delete_multiple" query="identifier=faaac791834fcf10ac771896feaad3da^sys_idNOT IN9e3bc315834fcf10ac771896feaad3da"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=faaac791834fcf10ac771896feaad3da"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=faaac791834fcf10ac771896feaad3da^sys_idNOT INf2aac791834fcf10ac771896feaad3df"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;faaac791834fcf10ac771896feaad3da&lt;/id&gt;&lt;name&gt;Set Avail Count&lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-08-31 04:18:32&lt;/sys_created_on&gt;&lt;sys_id&gt;f2aac791834fcf10ac771896feaad3df&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-08-31 04:18:32&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=f2aac791834fcf10ac771896feaad3df"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=faaac791834fcf10ac771896feaad3da^sys_idNOT IN2fba43d1834fcf10ac771896feaad3a1,97ba43d1834fcf10ac771896feaad369"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Set Avail Count"&gt;faaac791834fcf10ac771896feaad3da&lt;/model&gt;&lt;model_id&gt;faaac791834fcf10ac771896feaad3da&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_faaac791834fcf10ac771896feaad3da&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-08-31 04:18:52&lt;/sys_created_on&gt;&lt;sys_id&gt;2fba43d1834fcf10ac771896feaad3a1&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Library Management"&gt;7859b305c3154f10a73937cc0501314b&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-08-31 04:20:56&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2fba43d1834fcf10ac771896feaad3a1"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field&gt;table_name&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Set Avail Count"&gt;faaac791834fcf10ac771896feaad3da&lt;/model&gt;&lt;model_id&gt;faaac791834fcf10ac771896feaad3da&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_faaac791834fcf10ac771896feaad3da&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-08-31 04:18:51&lt;/sys_created_on&gt;&lt;sys_id&gt;97ba43d1834fcf10ac771896feaad369&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Library Management"&gt;7859b305c3154f10a73937cc0501314b&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-08-31 04:20:56&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;true&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=97ba43d1834fcf10ac771896feaad369"/&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=faaac791834fcf10ac771896feaad3da"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=faaac791834fcf10ac771896feaad3da"/&gt;&lt;sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=faaac791834fcf10ac771896feaad3da"/&gt;&lt;sys_hub_action_instance_v2 action="delete_multiple" query="flow=faaac791834fcf10ac771896feaad3da"/&gt;&lt;sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=faaac791834fcf10ac771896feaad3da"/&gt;&lt;sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=faaac791834fcf10ac771896feaad3da"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=faaac791834fcf10ac771896feaad3da"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=faaac791834fcf10ac771896feaad3da"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_faaac791834fcf10ac771896feaad3da&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-08-31 04:18:52&lt;/sys_created_on&gt;&lt;sys_id&gt;abba43d1834fcf10ac771896feaad3a8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b"&gt;7859b305c3154f10a73937cc0501314b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Library Management"&gt;7859b305c3154f10a73937cc0501314b&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-08-31 04:18:52&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_faaac791834fcf10ac771896feaad3da&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-08-31 04:18:52&lt;/sys_created_on&gt;&lt;sys_id&gt;ebba43d1834fcf10ac771896feaad39c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b"&gt;7859b305c3154f10a73937cc0501314b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Library Management"&gt;7859b305c3154f10a73937cc0501314b&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-08-31 04:18:52&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_faaac791834fcf10ac771896feaad3da"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_faaac791834fcf10ac771896feaad3da"/&gt;&lt;sys_hub_flow_snapshot action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;attributes&gt;browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage&lt;/attributes&gt;&lt;authored_on_release_version&gt;28100&lt;/authored_on_release_version&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;flow_priority&gt;MEDIUM&lt;/flow_priority&gt;&lt;internal_name&gt;set_avail_count&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"Created_1.current.u_total_count","label":"Trigger - Record Created➛Books Record➛Total Count","reference":"","reference_display":"Total Count","type":"integer","base_type":"integer","parent_table_name":"u_books","column_name":"u_total_count","usedInstances":{"700c3cfc-8931-40a0-bf34-902e982b794a":["u_availabe_count"]}}]&lt;/label_cache&gt;&lt;master&gt;true&lt;/master&gt;&lt;name&gt;Set Avail Count&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;parent_flow display_value="Set Avail Count"&gt;faaac791834fcf10ac771896feaad3da&lt;/parent_flow&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;status&gt;published&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow_snapshot&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-08-31 04:20:57&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;8e3bc315834fcf10ac771896feaad373&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Library Management"&gt;7859b305c3154f10a73937cc0501314b&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-08-31 04:20:57&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;version&gt;2&lt;/version&gt;&lt;/sys_hub_flow_snapshot&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=8e3bc315834fcf10ac771896feaad373"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=8e3bc315834fcf10ac771896feaad373"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=8e3bc315834fcf10ac771896feaad373"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=8e3bc315834fcf10ac771896feaad373^sys_idNOT IN0e3bc315834fcf10ac771896feaad375"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;8e3bc315834fcf10ac771896feaad373&lt;/id&gt;&lt;name&gt;Set Avail Count&lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-08-31 04:20:57&lt;/sys_created_on&gt;&lt;sys_id&gt;0e3bc315834fcf10ac771896feaad375&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-08-31 04:20:57&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=0e3bc315834fcf10ac771896feaad375"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=8e3bc315834fcf10ac771896feaad373^sys_idNOT IN063bc315834fcf10ac771896feaad377,8e3bc315834fcf10ac771896feaad3ac"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field&gt;table_name&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Set Avail Count"&gt;8e3bc315834fcf10ac771896feaad373&lt;/model&gt;&lt;model_id&gt;8e3bc315834fcf10ac771896feaad373&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_8e3bc315834fcf10ac771896feaad373&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-08-31 04:20:57&lt;/sys_created_on&gt;&lt;sys_id&gt;063bc315834fcf10ac771896feaad377&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Library Management"&gt;7859b305c3154f10a73937cc0501314b&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-08-31 04:20:57&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;true&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=063bc315834fcf10ac771896feaad377"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Set Avail Count"&gt;8e3bc315834fcf10ac771896feaad373&lt;/model&gt;&lt;model_id&gt;8e3bc315834fcf10ac771896feaad373&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_8e3bc315834fcf10ac771896feaad373&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-08-31 04:20:57&lt;/sys_created_on&gt;&lt;sys_id&gt;8e3bc315834fcf10ac771896feaad3ac&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Library Management"&gt;7859b305c3154f10a73937cc0501314b&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-08-31 04:20:57&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8e3bc315834fcf10ac771896feaad3ac"/&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=8e3bc315834fcf10ac771896feaad373"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=8e3bc315834fcf10ac771896feaad373"/&gt;&lt;sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=8e3bc315834fcf10ac771896feaad373^sys_idNOT IN123bc315834fcf10ac771896feaad3c2"/&gt;&lt;sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Set Avail Count"&gt;8e3bc315834fcf10ac771896feaad373&lt;/flow&gt;&lt;generation_source/&gt;&lt;name&gt;Created&lt;/name&gt;&lt;published_version/&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-08-31 04:20:57&lt;/sys_created_on&gt;&lt;sys_id&gt;123bc315834fcf10ac771896feaad3c2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-08-31 04:20:57&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Created"&gt;798916a0c31322002841b63b12d3ae7c&lt;/trigger_definition&gt;&lt;trigger_inputs&gt;H4sIAAAAAAAA/9VYa0/jOBT9K1E+7UislEdLKd+YwuwgsSCVzq5GCEVObLfRuHY3ccJ0R/z3vc6raR6lj5QtX5Biu77nHp97rs3TL50hlzD9Up8glxH9TPe5JAFHbLJcEBiWatjhaK7m5ohjJEWw1C9lEJEznQZiPiHzBUMSFlPEQhgUASaBfmme6TFiEXlchrcYdoLfJ9tke+rZNHxHjivEjxBGsB/CXsu/sonP2bA38xkOCNcvn57P9AUKYB+pYvyqTEkA7axlpN2n0H0FwaMeGlrE8GzTtizDsC56pntuu6aFbUQMA9ZV6ahAlg2srPIlPyXhmOCCihphAUH4gbNlsWIGfKfkzNHP0P8Xdr8w1DpKICuPpHPFp5MxlA57M+F75GEhfcHTkRRnOilYNOf3KX7FLaEoYjLnFkaiEPYjCwVZgcgQ0ceZeBnnAb/4PMkum2TCQ6z4QlIGvhtJEqqjoD6DQ3FSbkIRBQn68c3oYXzt/H01GX29GTvjm8fJ+HY0ubnWX5O8nH8itWOKMMPipOm8FoL44hOGE6VknIde4C/klSf9OBfe69lKzCPBsZ+wUhO0l0+F64LOs9+kaMNo1bRXirjStRQSMccTEZdX998nX2/v/9hbzqMy8ETO5+cIYYJa5OzSkpzLhDQglg3clJPeJOxsZBtl9wzjf9J2Zlf7SnsuMGHXq+10mJxOQew+X0RSsfWCuAzhvB2EsVPiUS0FTG9pPc2tLvi3pR5EHLZwihOqCz4hsmD0zg8hgSco15ytZEuYp3fZluOIawKOEv5oXhQAWVLLDZDeztE045g+EkY8WZIF/RaWv/70w9Dn0xLqImjCSi1mEQ7kpeUppbHDA4M/d1ntddLjCpmVTrZ/1eenl1S8aVLqEmoZA1XvpmG71DQGRh9RbBuGZ5Uqvg6xFbusCOUolb9b3YeJRNkWgqwSn4E3yjWylbjidWXmJCjhZPYy6gaa2RE0S0Gr2KS9k08WYk2Hr9c1uym1jq8OCMcIfoG3tUu1YAtfpEy8gEXv4Yku8n5MA+jbuGpSak/N59pqhfZbxt+nDv2RioBsBrC+4pSccUV7LlzEl0fzRJua7pD0iAFWaIMLuv3h0PWQRengfEAss+KJK3CNiD+EF76hwbhJxG2+2CinuEmFOzjiAQBr7rgzwMN9MZNroyumcx/D/15mhDsANXCYcriaDU6Zj0k+160H1ELHq6rvygfusqRUdHox9PrmYOAN4B0ELkB7xEVmz+qj4eDcvuhXXKAGbxN02cDWu7yOwmWYAGlxiG/p1Gn9F+CYUg6JlKpx7d7POdx4k9+gNEipp6pj0RKjEYF2L/jvt6t12iOBVpk8kbtq7NugUAerHReGK+SsdrOA0J9hfC20upG2sHJyT7KKSOL1XI/0JCO9i/6Q2s3GQ4dNxrOC2A7+5C8iW9ZN3FqBTTeSbcsgbqym1ivEHsKuiKd8t9hw+emKFLNzUqzjkWIffOHKK7T1HboP2A/U2JLbxiHdTcUkjqBlS78WGkxoEETzqZb9x5JgzV1qckaAUgY3awioqeiHenm5t9ShFAp+XyDpXb3W42BYy65Vp9e+KlJ4jxc0wQPU79std+dh9QXdBPONLE6+me1cK3FT6W3saLvtW92zsaeVhLyuky27VadZN7esw7JubFpvZX14O9r0/m9AcaKN5vk/K6K0xN4fAAA=&lt;/trigger_inputs&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_create&lt;/trigger_type&gt;&lt;updation_source/&gt;&lt;/sys_hub_trigger_instance_v2&gt;&lt;sys_hub_action_instance_v2 action="delete_multiple" query="flow=8e3bc315834fcf10ac771896feaad373^sys_idNOT IN163bc315834fcf10ac771896feaad3bf"/&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Create Record"&gt;2de05916c31332002841b63b12d3aee1&lt;/action_type&gt;&lt;action_type_parent display_value="Create Record"&gt;02f0b88cc3c632002841b63b12d3aeff&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;2de05916c31332002841b63b12d3aee1&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Set Avail Count"&gt;8e3bc315834fcf10ac771896feaad373&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-08-31 04:20:57&lt;/sys_created_on&gt;&lt;sys_id&gt;163bc315834fcf10ac771896feaad3bf&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Library Management"&gt;7859b305c3154f10a73937cc0501314b&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-08-31 04:20:57&lt;/sys_updated_on&gt;&lt;ui_id&gt;700c3cfc-8931-40a0-bf34-902e982b794a&lt;/ui_id&gt;&lt;updation_source/&gt;&lt;values&gt;H4sIAAAAAAAA/9VUy27bMBD8lYBnQZDs1Eh8axz41CZAU/iSBsJKXNlEKVLlw4lr+N+7FGnHTWO0RXuJbzv74Mxo1/dbJjibskmJxbvLctKMy/F4VBSji/OynozrcsTHgHjOMqagQ6p0UEushiBja5A+gL6qtf5qCeHC9hI2i5S4SnCzEpIbVGx6/5CxHgz1OzRsun2R+lM2EmqUVPo50DnBzm36V7EPx71nNzGhDQ98iozhk0PFkYi0IC1mrAPFwWmzYVNnPAEGgd8quTlUrIRyNJCF2icrvtOzF0Woa5GUNRhzh7BKLkW4vQYHdzS5cd6k0malRYM2esKxBS/d7BiLBbe9E1rFlkFm6tbSd+omWsIOA/YfhRBviQT2QWdgnmS0dyv9+GnPci7UYElKSt2APETgnBG1d4HPlqHEjgZVHfS9UMuqN3othmbi0uVLSUHeSv1Ij1qxVDk0gXhOtkI+J/x6gBdgRFDxkcZQ8y5jdmNnEqx91kImVt98YBKVJQ1VtCG0NEb07j09sMZEd5ft15xjcXlyscr6eZGGzbY/rTisQYS1qxrtlfvii2LMt9sZLYNDXpV54w355nJfOe1AxrLd7tej+JdRf3lIv9e7P6S5QMntKwbsrwg70uCwioa8uKSUPFukZLqm8n9dUzkpht8buqko7s2f1NG/54njevgBujE5yEUGAAA=&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=163bc315834fcf10ac771896feaad3bf"/&gt;&lt;sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=8e3bc315834fcf10ac771896feaad373"/&gt;&lt;sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=8e3bc315834fcf10ac771896feaad373"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=8e3bc315834fcf10ac771896feaad373"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=8e3bc315834fcf10ac771896feaad373"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_8e3bc315834fcf10ac771896feaad373&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-08-31 04:20:57&lt;/sys_created_on&gt;&lt;sys_id&gt;0a3bc315834fcf10ac771896feaad39c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b"&gt;7859b305c3154f10a73937cc0501314b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Library Management"&gt;7859b305c3154f10a73937cc0501314b&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-08-31 04:20:57&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_8e3bc315834fcf10ac771896feaad373&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-08-31 04:20:57&lt;/sys_created_on&gt;&lt;sys_id&gt;9e3bc315834fcf10ac771896feaad3b3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b"&gt;7859b305c3154f10a73937cc0501314b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Library Management"&gt;7859b305c3154f10a73937cc0501314b&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-08-31 04:20:57&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_8e3bc315834fcf10ac771896feaad373"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_8e3bc315834fcf10ac771896feaad373"/&gt;&lt;sys_hub_flow action="UPDATE"&gt;&lt;sys_id&gt;faaac791834fcf10ac771896feaad3da&lt;/sys_id&gt;&lt;latest_snapshot&gt;8e3bc315834fcf10ac771896feaad373&lt;/latest_snapshot&gt;&lt;compiler_build&gt;glide-zurich-07-01-2025__patch10-05-22-2026_06-12-2026_2311.zip&lt;/compiler_build&gt;&lt;version_record/&gt;&lt;/sys_hub_flow&gt;&lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=faaac791834fcf10ac771896feaad3da^sys_idNOT IN9e3bc315834fcf10ac771896feaad3db"/&gt;&lt;sys_flow_trigger_plan action="INSERT_OR_UPDATE"&gt;&lt;binding_strategy&gt;com.snc.process_flow.engine.binding.OncePerRecord&lt;/binding_strategy&gt;&lt;plan&gt;{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"9e3bc315834fcf10ac771896feaad3db","name":"plan","plan_signature":null}}&lt;/plan&gt;&lt;plan_id&gt;faaac791834fcf10ac771896feaad3da&lt;/plan_id&gt;&lt;snapshot&gt;f25b4b15834fcf10ac771896feaad356&lt;/snapshot&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-08-31 04:20:58&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;9e3bc315834fcf10ac771896feaad3db&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_overrides/&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-08-31 04:20:58&lt;/sys_updated_on&gt;&lt;trigger display_value=""&gt;5a3bc315834fcf10ac771896feaad3d9&lt;/trigger&gt;&lt;/sys_flow_trigger_plan&gt;&lt;sys_flow_subflow_plan action="delete_multiple" query="plan_id=faaac791834fcf10ac771896feaad3da"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-60810652</payload_hash>
+        <record_name>Set Avail Count</record_name>
+        <reverted_from/>
+        <source>5ef8e38483cf4710ac771896feaad3d9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-31 04:27:41</sys_created_on>
+        <sys_id>b0cc8bd5834fcf10ac771896feaad389</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a05612b4920000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-31 04:27:41</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>b0cc8bd5ce4fcf1064be5894c1880188</update_guid>
+        <update_guid_history>b0cc8bd5ce4fcf1064be5894c1880188:-60810652,25db8b55234fcf10ad042656dff6c171:-768902414,f0bb4755cf4fcf10053aae765e79cdac:335260484,ee8bcf15864fcf10ab8304819064c4e7:384091608,923b0715044fcf102b53e8760b63c10c:1298363336,063bc315764fcf101871d0acdf0c2748:-580634272,541b4fd1c74fcf1032de9338608ceca3:-1970805926,3d0b0fd1404fcf109624863fda5c0d0f:-304953744,5ffa8bd11f4fcf10381073ac8145c099:-417890727,78fa4bd15a4fcf1080f19b205ce6af2e:388416173,02eac7d1874fcf10a375f23b68798367:992270559,e5ca83d1304fcf10ad78fa1fc13a48c3:1290410500,faaa4f91324fcf101bf9825ccb669902:-1302650997</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-31 04:28:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>0c952033b57546f5a4af894fc291d021</sys_id>
+        <sys_metadata>faaac791834fcf10ac771896feaad3da</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Avail Count</sys_name>
+        <sys_package display_value="Library Management" source="7859b305c3154f10a73937cc0501314b">7859b305c3154f10a73937cc0501314b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Library Management">7859b305c3154f10a73937cc0501314b</sys_scope>
+        <sys_scope_delete display_value="">3a6fb8a3e030493ea05c1e70fa145c24</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_faaac791834fcf10ac771896feaad3da</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_faaac791834fcf10ac771896feaad3da">b0cc8bd5834fcf10ac771896feaad389</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-31 04:28:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
