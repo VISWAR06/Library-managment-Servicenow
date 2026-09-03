@@ -4,5 +4,7 @@
   connecitno all the loose ends
 2 sep:
   testing the project and yayy... workign perfectly
+3 spe:
+  making the documtiaon work 
 
 
