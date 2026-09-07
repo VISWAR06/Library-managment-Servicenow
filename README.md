@@ -6,5 +6,8 @@
   testing the project and yayy... workign perfectly
 3 spe:
   making the documtiaon work 
+7 sep:
+   making the documtiaon work 
+
 
 
